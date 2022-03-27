@@ -4,11 +4,16 @@ import HomeLayout from "../components/layouts/HomeLayout";
 import BioText from "../components/ui/BioText";
 import Filters from "../components/ui/Filters";
 import ElectionEmails from "../components/portfolio-cards/ElectionEmails";
+import { GatsbySeo } from "gatsby-plugin-next-seo";
 
 // markup
 const IndexPage = () => {
   return (
     <HomeLayout>
+      <GatsbySeo
+        title="Fostan"
+        description="Front-End Development & UX/UI Design"
+      />
       <div className="grid max-w-3xl py-16 mx-auto md:grid-cols-2 gap-16 px-4 overflow-x-hidden">
         <div
           className="flex flex-col py-4 md:py-10 md:col-span-2

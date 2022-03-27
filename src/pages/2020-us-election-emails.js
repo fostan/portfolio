@@ -7,6 +7,7 @@ import BeforeAfter from "../components/portfolio/BeforeAfter";
 import VideoFeature from "../components/portfolio/VideoFeature";
 import StickyGallery from "../components/portfolio/StickyGallery";
 import RelatedProjects from "../components/portfolio/RelatedProjects";
+import { GatsbySeo } from "gatsby-plugin-next-seo";
 
 const PageContent = {
   darkColor: "#1F1D1D",
@@ -55,6 +56,10 @@ const PageContent = {
 const IndexPage = () => {
   return (
     <DefaultLayout>
+      <GatsbySeo
+        title="2020 US Election Emails"
+        description="A new look at the 2020 election"
+      />
       <ProjectIntro content={PageContent} />
       <UserTabs users={PageContent} />
       <WebMockupScroll />

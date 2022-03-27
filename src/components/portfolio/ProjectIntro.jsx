@@ -27,16 +27,20 @@ const ProjectIntro = ({ content }) => {
             <div className="md:flex md:flex-col md:items-center">
               <ul>
                 <li className="uppercase py-1 tracking-wider text-sm">Role</li>
-                {role.map((role) => (
-                  <li className="text-xs py-1 opacity-70">{role.label}</li>
+                {role.map((role, i) => (
+                  <li key={i} className="text-xs py-1 opacity-70">
+                    {role.label}
+                  </li>
                 ))}
               </ul>
             </div>
             <div className="md:flex md:flex-col md:items-end">
               <ul>
                 <li className="uppercase py-1 tracking-wider text-sm">Team</li>
-                {team.map((team) => (
-                  <li className="text-xs py-1 opacity-70">{team.member}</li>
+                {team.map((team, i) => (
+                  <li key={i} className="text-xs py-1 opacity-70">
+                    {team.member}
+                  </li>
                 ))}
               </ul>
             </div>

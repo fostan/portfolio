@@ -2,8 +2,10 @@ require("dotenv").config();
 
 module.exports = {
   siteMetadata: {
-    title: `fostan`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Fostan`,
+    siteUrl: `https://www.fostan.xyz`,
+    description: "Front-End Development & UX/UI Design",
+    image: "/social.jpg",
   },
   plugins: [
     "gatsby-plugin-postcss",
@@ -19,5 +21,6 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
+    "gatsby-plugin-next-seo",
   ],
 };
