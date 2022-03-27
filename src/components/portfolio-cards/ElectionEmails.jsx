@@ -32,10 +32,10 @@ const ElectionEmails = () => {
             {link.tags}
           </div>
           <Link to={link.page} className="">
-            <div className="relative bg-black h-[455px]  rounded-lg overflow-hidden group-hover:scale-[97%] transition">
+            <div className="relative bg-black h-[455px]  rounded-lg overflow-hidden group-hover:scale-[97%] ease-out duration-300 transition">
               <div className="absolute inset-0">
                 <img
-                  className="w-full h-full object-cover group-hover:scale-[120%] transition ease-out duration-300"
+                  className="w-full h-full object-cover group-hover:scale-[120%] transition ease-out duration-500"
                   src={link.image}
                   alt=""
                 />

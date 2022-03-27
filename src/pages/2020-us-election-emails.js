@@ -10,7 +10,7 @@ import RelatedProjects from "../components/portfolio/RelatedProjects";
 
 const PageContent = {
   darkColor: "#1F1D1D",
-  lightColor: "",
+  lightColor: "#F5F4EE",
   accentColor: "#AD3F31",
   tagline: "A new look at the 2020 election",
   client: {

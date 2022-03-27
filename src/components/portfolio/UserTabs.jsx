@@ -2,18 +2,21 @@ import React, { Fragment, useState } from "react";
 import { Tab, Transition } from "@headlessui/react";
 
 const UserTabs = ({ users }) => {
-  const { userStories, accentColor } = users;
+  const { userStories, accentColor, lightColor } = users;
   // const [isShowing, setIsShowing] = useState(false);
 
   return (
-    <section className="pb-28 pt-8">
-      <div className="container max-w-4xl mx-auto grid lg:grid-cols-3">
-        <div className="lg:order-last md:mx-16 lg:mx-0 flex items-center">
+    <section className="pb-28 pt-8 px-4 md:px-0">
+      <div
+        className={`shadow-lg md:shadow-none py-10 rounded-md container max-w-5xl mx-auto grid lg:grid-cols-3 relative before:-z-10   before:content-[''] before:absolute before:w-full before:md:w-3/4 before:h-full before:bg-[${lightColor}] before:top-1/2 before:left-1/2 before:transform before:-translate-x-1/2 before:-translate-y-1/2`}
+      >
+        <div className="hidden before:bg-[#F5F4EE]"></div>
+        <div className="lg:order-last md:mx-16 lg:mx-0 flex items-center justify-center">
           <h2 className="text-2xl lg:text-7xl font-serif font-black lg:text-gray-800">
             Users & Stories
           </h2>
         </div>
-        <div className="lg:col-span-2 md:flex mt-4 items-center">
+        <div className="lg:col-span-2 md:flex mt-4 items-center ">
           <Tab.Group vertical>
             <Tab.List className="flex md:flex-col justify-around md:justify-center border border-gray-100 shadow-inner items-center bg-white rounded-full p-2 h-fit my-4">
               {userStories.map((user, i) => (
