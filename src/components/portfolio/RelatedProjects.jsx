@@ -1,35 +1,31 @@
 import React from "react";
-
-const projectDetails = [
-  {
-    title: "A new look at the 2020 election",
-    client: "2020 US Election Emails",
-    tags: "Dev • Design • UX",
-    image: "/images/election-emails-card.jpg",
-    page: "/2020-us-election-emails/",
-  },
-  {
-    title: "Preventing Disaster with A.I.",
-    client: "Kettle Reinsurance",
-    tags: "Dev",
-    image: "/images/election-emails-card.jpg",
-    page: "/2020-us-election-emails/",
-  },
-];
+import PortfolioCard from "../global/PortfolioCard";
+import { Link } from "gatsby";
 
 const altLayout = ["md:mt-16", ""];
 
-const RelatedProjects = () => {
+const RelatedProjects = ({ projects }) => {
   return (
     <section className="bg-gradient-to-tr from-gray-800 via-gray-900 to-black py-20 text-white">
-      <div className="container max-w-4xl mx-auto grid md:grid-cols-3">
-        <div className="md:order-last">
+      <div className="container max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+        <div className="md:order-last flex justify-center h-full flex-col">
           <h2 className="text-7xl font-serif font-black">
-            Other
+            Related
             <br />
             Projects
           </h2>
+          <Link
+            to="/"
+            className="underline text-primary hover:text-white hover:opacity-75 mt-6"
+          >
+            Or view all work
+          </Link>
         </div>
+        {projects.map((project, index) => (
+          <div key={index} className={`${altLayout[index % altLayout.length]}`}>
+            <PortfolioCard project={project} />
+          </div>
+        ))}
       </div>
     </section>
   );

@@ -5,6 +5,26 @@ import BioText from "../components/ui/BioText";
 import Filters from "../components/ui/Filters";
 import ElectionEmails from "../components/portfolio-cards/ElectionEmails";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
+import PortfolioCard from "../components/global/PortfolioCard";
+
+const FeaturedProjects = [
+  {
+    title: "A new look at the 2020 election",
+    client: "2020 US Election Emails",
+    tags: "Dev • Design • UX",
+    image: "/images/election-emails-card.jpg",
+    page: "/2020-us-election-emails/",
+  },
+  {
+    title: "Preventing Disaster with A.I.",
+    client: "Kettle Reinsurance",
+    tags: "Dev",
+    image: "/images/election-emails-card.jpg",
+    page: "/2020-us-election-emails/",
+  },
+];
+
+const altLayout = ["md:mt-16", "mb-16"];
 
 // markup
 const IndexPage = () => {
@@ -33,8 +53,11 @@ const IndexPage = () => {
         {/* <div className="p-4 text-white">
           <Filters />
         </div> */}
-        <ElectionEmails />
-        <ElectionEmails />
+        {FeaturedProjects.map((project, index) => (
+          <div key={index} className={`${altLayout[index % altLayout.length]}`}>
+            <PortfolioCard project={project} />
+          </div>
+        ))}
       </div>
     </HomeLayout>
   );

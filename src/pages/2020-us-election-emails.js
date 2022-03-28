@@ -1,4 +1,5 @@
 import * as React from "react";
+import { GatsbySeo } from "gatsby-plugin-next-seo";
 import DefaultLayout from "../components/layouts/DefaultLayout";
 import ProjectIntro from "../components/portfolio/ProjectIntro";
 import UserTabs from "../components/portfolio/UserTabs";
@@ -7,7 +8,6 @@ import BeforeAfter from "../components/portfolio/BeforeAfter";
 import VideoFeature from "../components/portfolio/VideoFeature";
 import StickyGallery from "../components/portfolio/StickyGallery";
 import RelatedProjects from "../components/portfolio/RelatedProjects";
-import { GatsbySeo } from "gatsby-plugin-next-seo";
 
 const PageContent = {
   darkColor: "#1F1D1D",
@@ -54,6 +54,23 @@ const PageContent = {
   additionalScreens: "/images/election-emails/election-email-screens.webp",
 };
 
+const FeaturedProjects = [
+  {
+    title: "A new look at the 2020 election",
+    client: "2020 US Election Emails",
+    tags: "Dev • Design • UX",
+    image: "/images/election-emails-card.jpg",
+    page: "/2020-us-election-emails/",
+  },
+  {
+    title: "Preventing Disaster with A.I.",
+    client: "Kettle Reinsurance",
+    tags: "Dev",
+    image: "/images/election-emails-card.jpg",
+    page: "/2020-us-election-emails/",
+  },
+];
+
 const IndexPage = () => {
   return (
     <DefaultLayout>
@@ -70,7 +87,7 @@ const IndexPage = () => {
       <BeforeAfter images={PageContent} />
       <VideoFeature />
       <StickyGallery images={PageContent} />
-      <RelatedProjects />
+      <RelatedProjects projects={FeaturedProjects} />
     </DefaultLayout>
   );
 };
