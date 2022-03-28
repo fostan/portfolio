@@ -6,7 +6,9 @@ const Filters = () => {
       <img
         src="/images/header-burst.svg"
         className="object-fit inset-0 max-w-[400px]"
-        alt=""
+        role="presentation"
+        width="400px"
+        height="480px"
       />
     </>
   );

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 const projectDetails = [
   {
@@ -38,15 +39,20 @@ const ElectionEmails = () => {
                   className="w-full h-full object-cover group-hover:scale-[120%] transition ease-out duration-500"
                   src={link.image}
                   alt=""
+                  role="presentation"
+                  width="336px"
+                  height="455px"
                 />
+                {/* <StaticImage
+                  src={link.image}
+                  className="w-full h-full object-cover group-hover:scale-[120%] transition ease-out duration-500"
+                  alt=""
+                /> */}
+
                 <div
                   className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent"
                   aria-hidden="true"
                 />
-                {/* <div
-                  className="absolute inset-0 bg-indigo-800 mix-blend-multiply"
-                  aria-hidden="true"
-                /> */}
               </div>
               <div className="relative max-w-7xl p-6 h-full  flex flex-col justify-end">
                 <p className="text-indigo-100">{link.client}</p>

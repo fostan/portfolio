@@ -15,10 +15,7 @@ const IndexPage = () => {
         description="Front-End Development & UX/UI Design"
       />
       <div className="grid max-w-3xl py-16 mx-auto md:grid-cols-2 gap-16 px-4 overflow-x-hidden">
-        <div
-          className="flex flex-col py-4 md:py-10 md:col-span-2
-        relative"
-        >
+        <div className="flex flex-col py-4 md:py-10 md:col-span-2 relative">
           <BioText />
           <div className="absolute -bottom-[90px] -right-[175px] md:-top-1/2 md:right-0">
             <Filters />
@@ -27,15 +24,15 @@ const IndexPage = () => {
             <img
               src="/images/header-glow.png"
               className="object-fit inset-0 max-w-[400px] scale-150"
-              alt=""
+              role="presentation"
+              width="400px"
+              height="480px"
             />
           </div>
         </div>
         {/* <div className="p-4 text-white">
           <Filters />
         </div> */}
-        <ElectionEmails />
-        <ElectionEmails />
         <ElectionEmails />
         <ElectionEmails />
       </div>

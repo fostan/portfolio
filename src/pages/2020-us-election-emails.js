@@ -13,6 +13,7 @@ const PageContent = {
   darkColor: "#1F1D1D",
   lightColor: "#F5F4EE",
   accentColor: "#AD3F31",
+  accentColor2: "#376996",
   tagline: "A new look at the 2020 election",
   client: {
     clientName: "Princeton University",
@@ -60,9 +61,12 @@ const IndexPage = () => {
         title="2020 US Election Emails"
         description="A new look at the 2020 election"
       />
+      <div className="h-full w-full before:bg-[#F5F4EE] bg-[#F5F4EE]"> </div>
+      <div className="hidden before:bg-[#AD3F31] bg-[#AD3F31]"></div>
+      <div className="hidden before:bg-[#376996] bg-[#376996]"></div>
       <ProjectIntro content={PageContent} />
       <UserTabs users={PageContent} />
-      <WebMockupScroll />
+      <WebMockupScroll content={PageContent} />
       <BeforeAfter images={PageContent} />
       <VideoFeature />
       <StickyGallery images={PageContent} />

@@ -27,6 +27,7 @@
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^4.10.0",
     "gatsby-transformer-sharp": "^4.10.0",
+    "gsap": "^3.9.1",
     "html-react-parser": "^1.4.9",
     "postcss": "^8.4.6",
     "react": "^17.0.1",

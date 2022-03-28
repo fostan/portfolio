@@ -31,8 +31,16 @@
   .container {
     @apply px-6;
   }
+  .device-mockup {
+    @apply bg-black rounded-xl w-fit relative flex items-center h-fit p-4 shadow-lg rotate-3 mx-auto;
+  }
+  #canvasWrapper {
+    @apply h-[7000px];
+  }
+  #canvasWrapper canvas {
+    @apply inset-0 mx-auto left-0 right-0 relative w-full;
+  }
 }
-
 @layer utilities {
   .h2 {
     font-family: mixta-pro, serif;
