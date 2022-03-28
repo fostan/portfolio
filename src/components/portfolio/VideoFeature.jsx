@@ -1,27 +1,39 @@
 import React from "react";
+import parse from "html-react-parser";
 
-const VideoFeature = () => {
+const VideoFeature = ({ content }) => {
+  const {
+    darkColor,
+    accentColor,
+    videoFeatureTitle,
+    videoFeatureSubTitle,
+    videoFeatureHTML,
+  } = content;
+
   return (
-    <section className="bg-[#1F1D1D] py-20 border-t-8 border-[#AD3F31]  flex">
-      <div className="container mx-auto max-w-7xl grid md:grid-cols-3">
-        <div className="text-[#FFFFFF]  md:order-last flex flex-col justify-center">
-          <h2 className="mb-4">
-            <span className="h3">Manipulative Tactics</span>
+    <section
+      className={`bg-[${darkColor}] py-20 lg:py-40 border-t-8 border-[${accentColor}] flex`}
+    >
+      <div className="container mx-auto max-w-5xl gap-8 grid md:grid-cols-2 ">
+        <div className="md:order-last flex flex-col justify-center text-gray-200">
+          <h2 className="mb-4 ">
+            <span className="h3">{videoFeatureTitle}</span>
             <br />
-            <span className="h2">A vote for education</span>
+            <span className="h2 !text-white">{videoFeatureSubTitle}</span>
           </h2>
-          <p>
-            The researchers discovered dark UX patterns present in nearly half
-            of all emails they received throughout the 2020 election. These
-            ranged from forged replies to fake counters, meant to trick users
-            into responding and sending money to campaigns and other political
-            entities. In addition to searching the database, it was also
-            imperative to educate users on these manipulations and teach them
-            how to spot these tactics themselves.
-          </p>
+          {parse(videoFeatureHTML)}
         </div>
-        <div className="md:col-span-2">
-          <video src=""></video>
+        <div className="flex justify-center">
+          {/* <video src=""></video> */}
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/NpEaa2P7qZI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
         </div>
       </div>
     </section>

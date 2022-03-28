@@ -1,10 +1,8 @@
 import React from "react";
 import parse from "html-react-parser";
 
-// const parse = require('html-react-parser');
-
 const ProjectIntro = ({ content }) => {
-  const { client, tagline, role, team, objectiveHTML } = content;
+  const { client, tagline, role, team, objectiveHTML, featuredImage } = content;
   return (
     <>
       <section className="pt-20 bg-[#1F1D1D] relative">
@@ -48,8 +46,9 @@ const ProjectIntro = ({ content }) => {
           <div className="w-full h-72 bg-yellow-600 relative ">
             <div className="absolute inset-0"></div>
             <img
-              src="https://place-hold.it/900x325"
+              src={featuredImage}
               alt=""
+              role="presentation"
               className="object-cover w-full h-full shadow-lg rounded-sm"
             />
           </div>

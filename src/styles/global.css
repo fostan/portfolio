@@ -14,7 +14,7 @@
     @apply mb-3 text-4xl font-serif font-black;
   }
   p {
-    @apply mb-3;
+    @apply mb-3 opacity-80;
   }
 }
 
@@ -48,8 +48,5 @@
   }
   .h3 {
     @apply uppercase tracking-widest text-sm opacity-75;
-  }
-  p {
-    @apply text-gray-600;
   }
 }
