@@ -2,7 +2,15 @@ import React from "react";
 import parse from "html-react-parser";
 
 const ProjectIntro = ({ content }) => {
-  const { client, tagline, role, team, objectiveHTML, featuredImage } = content;
+  const {
+    client,
+    tagline,
+    role,
+    team,
+    objectiveHTML,
+    featuredImage,
+    folderString,
+  } = content;
   return (
     <>
       <section className="pt-20 bg-[#1F1D1D] relative">
@@ -43,10 +51,10 @@ const ProjectIntro = ({ content }) => {
               </ul>
             </div>
           </div>
-          <div className="w-full h-72 bg-yellow-600 relative ">
+          <div className="w-full h-72 bg-yellow-600 relative rounded-sm">
             <div className="absolute inset-0"></div>
             <img
-              src={featuredImage}
+              src={`/images/${folderString}/${featuredImage}`}
               alt=""
               role="presentation"
               className="object-cover w-full h-full shadow-lg rounded-sm"

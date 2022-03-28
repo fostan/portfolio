@@ -7,14 +7,14 @@ const projectDetails = [
     title: "A new look at the 2020 election",
     client: "2020 US Election Emails",
     tags: "Dev • Design • UX",
-    image: "/images/election-emails-card.jpg",
+    image: "/images/election-emails/election-email-card.webp",
     page: "/2020-us-election-emails/",
   },
   {
     title: "Preventing Disaster with A.I.",
     client: "Kettle Reinsurance",
     tags: "Dev",
-    image: "/images/election-emails-card.jpg",
+    image: "/images/election-emails/election-email-card.webp",
     page: "/2020-us-election-emails/",
   },
 ];
