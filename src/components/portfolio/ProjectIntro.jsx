@@ -51,7 +51,7 @@ const ProjectIntro = ({ content }) => {
               </ul>
             </div>
           </div>
-          <div className="w-full h-72 bg-yellow-600 relative rounded-sm">
+          <div className="w-full h-72  relative rounded-sm">
             <div className="absolute inset-0"></div>
             <img
               src={`/images/${folderString}/${featuredImage}`}

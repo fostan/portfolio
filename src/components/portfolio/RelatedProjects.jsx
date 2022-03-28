@@ -7,7 +7,7 @@ const altLayout = ["md:mt-16", ""];
 const RelatedProjects = ({ projects }) => {
   return (
     <section className="bg-gradient-to-t from-gray-800 via-gray-900 to-black py-20 text-white">
-      <div className="container max-w-6xl mx-auto grid md:grid-cols-3 gap-8">
+      <div className="container max-w-6xl mx-auto grid md:grid-cols-3 gap-8 lg:gap-16">
         <div className="md:order-last flex justify-center h-full flex-col mb-20 md:mb-0">
           <h2 className="text-7xl font-serif font-black">
             Related
