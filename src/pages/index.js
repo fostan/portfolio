@@ -39,13 +39,13 @@ const FeaturedProjects = [
   //   image: "/images/kettle/kettle-card.png",
   //   page: "/carbonvert/",
   // },
-  // {
-  //   title: "Heaven Scent",
-  //   client: "Smellbetter",
-  //   tags: "Development • Design",
-  //   image: "/images/smellbetter/smellbetter-card.png",
-  //   page: "/carbonvert/",
-  // },
+  {
+    title: "Heaven Scent",
+    client: "Smellbetter",
+    tags: "Development • Design",
+    image: "/images/smellbetter/smellbetter-card.png",
+    page: "/smellbetter/",
+  },
 ];
 
 const altLayout = ["md:mt-16", "mb-16"];
