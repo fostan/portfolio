@@ -22,6 +22,34 @@ const FeaturedProjects = [
     image: "/images/carbonvert/carbonvert-card.png",
     page: "/carbonvert/",
   },
+  {
+    title: "Who are your devices talking to?",
+    client: "IoT Inspector",
+    tags: "Dev • UX",
+    image: "/images/iot-inspector/iot-inspector-card.png",
+    page: "/carbonvert/",
+  },
+  {
+    title: "Preventing Disaster with A.I.",
+    client: "Kettle",
+    tags: "Dev",
+    image: "/images/kettle/kettle-card.png",
+    page: "/carbonvert/",
+  },
+  {
+    title: "Table top magic",
+    client: "Mad Cactus Labs",
+    tags: "Dev • UX",
+    image: "/images/dggt/dggt-card.png",
+    page: "/carbonvert/",
+  },
+  {
+    title: "Heaven Scent",
+    client: "Smellbetter",
+    tags: "Dev • Design",
+    image: "/images/smellbetter/smellbetter-card.png",
+    page: "/carbonvert/",
+  },
 ];
 
 const altLayout = ["md:mt-16", "mb-16"];
