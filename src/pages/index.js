@@ -16,15 +16,15 @@ const FeaturedProjects = [
     client: "IoT Inspector",
     tags: "Development • UX",
     image: "/images/iot-inspector/iot-inspector-card.png",
-    page: "/carbonvert/",
+    page: "/iot-inspector/",
   },
-  {
-    title: "Table top magic",
-    client: "Damn Good Game tools",
-    tags: "Development • UX",
-    image: "/images/dggt/dggt-card.png",
-    page: "/carbonvert/",
-  },
+  // {
+  //   title: "Table top magic",
+  //   client: "Damn Good Game tools",
+  //   tags: "Development • UX",
+  //   image: "/images/dggt/dggt-card.png",
+  //   page: "/carbonvert/",
+  // },
   {
     title: "A down to Earth solution",
     client: "Carbonvert",
@@ -32,21 +32,20 @@ const FeaturedProjects = [
     image: "/images/carbonvert/carbonvert-card.png",
     page: "/carbonvert/",
   },
-
-  {
-    title: "Preventing Disaster with A.I.",
-    client: "Kettle",
-    tags: "Development",
-    image: "/images/kettle/kettle-card.png",
-    page: "/carbonvert/",
-  },
-  {
-    title: "Heaven Scent",
-    client: "Smellbetter",
-    tags: "Development • Design",
-    image: "/images/smellbetter/smellbetter-card.png",
-    page: "/carbonvert/",
-  },
+  // {
+  //   title: "Preventing Disaster with A.I.",
+  //   client: "Kettle",
+  //   tags: "Development",
+  //   image: "/images/kettle/kettle-card.png",
+  //   page: "/carbonvert/",
+  // },
+  // {
+  //   title: "Heaven Scent",
+  //   client: "Smellbetter",
+  //   tags: "Development • Design",
+  //   image: "/images/smellbetter/smellbetter-card.png",
+  //   page: "/carbonvert/",
+  // },
 ];
 
 const altLayout = ["md:mt-16", "mb-16"];

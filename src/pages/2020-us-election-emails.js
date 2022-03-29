@@ -88,8 +88,8 @@ const ElectionEmailPage = () => {
   return (
     <DefaultLayout>
       <GatsbySeo
-        title="2020 US Election Emails"
-        description="A new look at the 2020 election"
+        title="Fostan • 2020 US Election Emails"
+        description="This Case Study: A refreshed look and search experience exploring a database of nearly every 2020 US eleciton email. Featuring front-end development, website design, and UX design."
       />
       <div className="h-full w-full before:bg-[#F5F4EE] bg-[#F5F4EE]"> </div>
       <div className="hidden before:bg-[#AD3F31] bg-[#AD3F31] border-[#AD3F31]"></div>

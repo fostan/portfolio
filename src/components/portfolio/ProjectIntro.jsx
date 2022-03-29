@@ -3,6 +3,7 @@ import parse from "html-react-parser";
 
 const ProjectIntro = ({ content }) => {
   const {
+    darkColor,
     client,
     tagline,
     role,
@@ -13,7 +14,7 @@ const ProjectIntro = ({ content }) => {
   } = content;
   return (
     <>
-      <section className="pt-20 bg-[#1F1D1D] relative">
+      <section className={`pt-20 bg-[${darkColor}] relative`}>
         <div className="bg-white absolute bottom-0 h-20 w-full"></div>
         <div className="container max-w-4xl mx-auto text-[#FFFFFF]">
           <h1>{tagline}</h1>

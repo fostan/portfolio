@@ -53,10 +53,11 @@ const CarbonvertPage = () => {
   return (
     <DefaultLayout>
       <GatsbySeo
-        title="2020 US Election Emails"
-        description="A new look at the 2020 election"
+        title="Fostan • A down to Earth solution"
+        description="This Case Study: This web design project featured front-end development and a fresh design system revamp for Carbonvert."
       />
       <div className="h-full w-full before:bg-[#F5F4EE] bg-[#F5F4EE]"> </div>
+      <div className="h-full w-full before:bg-[#2F2A2B] bg-[#2F2A2B]"> </div>
       <div className="hidden before:bg-[#F5F5F5] bg-[#F5F5F5] border-[#F5F5F5]"></div>
       <div className="hidden before:bg-[#99EEF3] bg-[#99EEF3] border-[#99EEF3]"></div>
 
