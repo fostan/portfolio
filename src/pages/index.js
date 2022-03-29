@@ -1,9 +1,5 @@
 import * as React from "react";
-import DefaultLayout from "../components/layouts/DefaultLayout";
 import HomeLayout from "../components/layouts/HomeLayout";
-import BioText from "../components/ui/BioText";
-import Filters from "../components/ui/Filters";
-import ElectionEmails from "../components/portfolio-cards/ElectionEmails";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
 import PortfolioCard from "../components/global/PortfolioCard";
 
@@ -55,7 +51,6 @@ const FeaturedProjects = [
 
 const altLayout = ["md:mt-16", "mb-16"];
 
-// markup
 const IndexPage = () => {
   return (
     <HomeLayout>
