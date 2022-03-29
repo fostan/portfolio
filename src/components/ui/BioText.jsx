@@ -4,8 +4,21 @@ import { MailIcon } from "@heroicons/react/outline";
 const BioText = () => {
   return (
     <>
-      <h1 className="text-white text-hero">Fostan</h1>
-      <p className="text-primary">
+      <h1 className="text-white mx-auto text-7xl lg:text-9xl uppercase tracking-widest">
+        Fostan
+      </h1>
+      <div className="max-w-9xl grid md:grid-cols-3 gap-8">
+        <p className="text-md uppercase text-gray-600">
+          User Experience design
+        </p>
+        <p className="text-md uppercase text-gray-600">
+          User Experience design
+        </p>
+        <p className="text-md uppercase text-gray-600">
+          User Experience design
+        </p>
+      </div>
+      {/* <p className="text-primary">
         Front end development & design&nbsp;
         <a
           href="https://ocupop.com/"
@@ -24,7 +37,7 @@ const BioText = () => {
           <MailIcon className="w-5 mr-2" />
           Send a message
         </a>
-      </p>
+      </p> */}
     </>
   );
 };

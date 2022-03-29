@@ -11,42 +11,43 @@ const FeaturedProjects = [
   {
     title: "A new look at the 2020 election",
     client: "2020 US Election Emails",
-    tags: "Dev • Design • UX",
+    tags: "Development • Design • UX",
     image: "/images/election-emails/election-emails-card.webp",
     page: "/2020-us-election-emails/",
   },
   {
-    title: "Downsizing our carbon footprint",
-    client: "Carbonvert",
-    tags: "Dev • Design",
-    image: "/images/carbonvert/carbonvert-card.png",
-    page: "/carbonvert/",
-  },
-  {
     title: "Who are your devices talking to?",
     client: "IoT Inspector",
-    tags: "Dev • UX",
+    tags: "Development • UX",
     image: "/images/iot-inspector/iot-inspector-card.png",
     page: "/carbonvert/",
   },
   {
-    title: "Preventing Disaster with A.I.",
-    client: "Kettle",
-    tags: "Dev",
-    image: "/images/kettle/kettle-card.png",
+    title: "Table top magic",
+    client: "Damn Good Game tools",
+    tags: "Development • UX",
+    image: "/images/dggt/dggt-card.png",
     page: "/carbonvert/",
   },
   {
-    title: "Table top magic",
-    client: "Mad Cactus Labs",
-    tags: "Dev • UX",
-    image: "/images/dggt/dggt-card.png",
+    title: "A down to Earth solution",
+    client: "Carbonvert",
+    tags: "Development • Design",
+    image: "/images/carbonvert/carbonvert-card.png",
+    page: "/carbonvert/",
+  },
+
+  {
+    title: "Preventing Disaster with A.I.",
+    client: "Kettle",
+    tags: "Development",
+    image: "/images/kettle/kettle-card.png",
     page: "/carbonvert/",
   },
   {
     title: "Heaven Scent",
     client: "Smellbetter",
-    tags: "Dev • Design",
+    tags: "Development • Design",
     image: "/images/smellbetter/smellbetter-card.png",
     page: "/carbonvert/",
   },
@@ -62,8 +63,27 @@ const IndexPage = () => {
         title="Fostan"
         description="Front-End Development & UX/UI Design"
       />
+      <section className="pt-40 pb-20">
+        <div className="max-w-9xl mx-auto px-4">
+          <h1 className="text-white text-center text-7xl lg:text-9xl uppercase tracking-widest mb-8">
+            Fostan
+          </h1>
+          <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
+            <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center opacity-70">
+              User Experience design
+            </p>
+            <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center">
+              Front-end web development
+            </p>
+            <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center">
+              User Interface design
+            </p>
+          </div>
+        </div>
+      </section>
+
       <div className="grid max-w-3xl py-16 mx-auto md:grid-cols-2 gap-16 px-4 overflow-x-hidden">
-        <div className="flex flex-col py-4 md:py-10 md:col-span-2 relative">
+        {/* <div className="flex flex-col py-4 md:py-10 md:col-span-2 relative">
           <BioText />
           <div className="absolute -bottom-[90px] -right-[175px] md:-top-1/2 md:right-0">
             <Filters />
@@ -77,7 +97,7 @@ const IndexPage = () => {
               height="480px"
             />
           </div>
-        </div>
+        </div> */}
         {/* <div className="p-4 text-white">
           <Filters />
         </div> */}

@@ -13,7 +13,7 @@ const PageContent = {
   lightColor: "#F5F5F5",
   accentColor: "#99EEF3",
   accentColor2: "#99EEF3",
-  tagline: "Downsizing our carbon footprint",
+  tagline: "A down to Earth solution",
   client: {
     clientName: "Carbonvert",
     clientProject: "Carbonvert Website",
