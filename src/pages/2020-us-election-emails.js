@@ -119,7 +119,7 @@ const ElectionEmailPage = () => {
             </p>
           </div>
           <div className="flex justify-center md:col-span-2">
-            <video width="100%" autoPlay muted height="auto">
+            <video width="100%" autoPlay muted loop height="auto">
               <source
                 src="/images/election-emails/election-emails-scroll.webm"
                 type="video/webm"

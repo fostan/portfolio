@@ -37,7 +37,7 @@ const FeaturedProjects = [
     client: "Kettle",
     tags: "Development",
     image: "/images/kettle/kettle-card.png",
-    page: "/carbonvert/",
+    page: "/kettle/",
   },
   {
     title: "Heaven Scent",
