@@ -85,7 +85,7 @@ const IotInspectorPage = () => {
   return (
     <DefaultLayout>
       <GatsbySeo
-        title="Fostan • Who are your devices talking to?s"
+        title="Fostan • Who are your devices talking to?"
         description="This Case Study: Front-end development and UX overhaul, complete with new features for Consumer Reports' 'internet of things' inspector."
       />
       <div className="h-full w-full before:bg-[#0D0D29] bg-[#0D0D29]"> </div>

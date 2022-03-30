@@ -18,13 +18,13 @@ const FeaturedProjects = [
     image: "/images/iot-inspector/iot-inspector-card.png",
     page: "/iot-inspector/",
   },
-  // {
-  //   title: "Table top magic",
-  //   client: "Damn Good Game tools",
-  //   tags: "Development • UX",
-  //   image: "/images/dggt/dggt-card.png",
-  //   page: "/carbonvert/",
-  // },
+  {
+    title: "Table top magic",
+    client: "Damn Good Game tools",
+    tags: "Development • UX",
+    image: "/images/dggt/dggt-card.png",
+    page: "/damn-good-game-tools/",
+  },
   {
     title: "A down to Earth solution",
     client: "Carbonvert",
