@@ -27,7 +27,8 @@ const PageContent = {
     { member: "Cody Nicoll" },
   ],
   featuredImage: "iot-featured.png",
-  objectiveHTML: "<p>lipsum</p>",
+  objectiveHTML:
+    "<p>In a world where everything is connected to the internet, it’s becoming more and more difficult to control your own data. The Princeton/NYU & Consumer Reports teams needed a brand new front-end experience for their Internet of Things inspector app to put that power back in users’ hands. First, they needed to rethink their user experience, and with some exciting new features on the way, we introduced some brand new concepts to help collect user research.</p><p>The IoT inspector allows users to actually see the location of connections their smart devices are making. Users will be able to monitor data usage, block specific connections, and contribute data to the global network, creating a more private ‘Internet of Things’ for everyone.</p>",
   userStories: [
     {
       user: "Data enthusiast",
@@ -59,7 +60,8 @@ const PageContent = {
   afterScreens: "/images/iot-inspector/iot-after.png",
   additionalTitle: "Research as a service",
   additionalSubTitle: "Thank you for sharing",
-  additionalHTML: "<p>lipsum</p>",
+  additionalHTML:
+    "<p>Most of the connections our smart devices make are obscured (because they’re not meant to be consumer facing). By scanning your own network and helping label your own devices, you contribute to an index of IoT smart devices users across the globe can use for their own privacy. Incentivizing users to share their data was achieved through color pattern reinforcement and an achievement system along with a robust onboarding process. </p>",
   additionalScreens: "/images/iot-inspector/iot-screens.png",
   folderString: "iot-inspector",
 };

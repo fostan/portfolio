@@ -24,14 +24,17 @@ const PageContent = {
     { member: "Tom Beck" },
   ],
   featuredImage: "kettle-featured.png",
-  objectiveHTML: "<p></p>",
+  objectiveHTML:
+    "<p>Kettle is a reinsurance tool utilizing machine learning to mitigate catastrophic risk in the midst of global warming. Their first product, Cat Strip, has an industry leading 89% prediction success rate predicting wildfire damages in the state of California and deserved an equally as impressive internet debut. The design team had an impressive vision highlighting Kettle’s impressive numbers with stunning visuals and animations that would certainly set Kettle apart. </p>",
   webTitle: "Out for a scroll",
   webSubtitle: "Web design Refresh",
-  webHTML: "<p></p>",
+  webHTML:
+    "<p>Close attention and communication with both designers and animators allowed us to create a variety of page based animations triggered by the user's scroll position. Included is a small demo showing Kettle’s impressive wildfire prediction from 2020.</p>",
   folderString: "kettle",
   additionalTitle: "Scroll based spritesheet animations",
   additionalSubTitle: "In sprite of it all",
-  additionalHTML: "<p></p>",
+  additionalHTML:
+    "<p>The animation on the technology page is controlled in a slightly different manner. While still based on user scroll position, the animation playing is a frame by frame export of an animated video, compiled into a spritesheet and repositioned behind a canvas as a way to not only interact with the content, but minimize file size.</p>",
   additionalScreens: "/images/kettle/kettle-screens.png",
   frameCount: 221,
 };

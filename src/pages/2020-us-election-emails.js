@@ -31,12 +31,12 @@ const PageContent = {
   ],
   featuredImage: "election-email-featured.webp",
   objectiveHTML:
-    "<p>The teams at Princeton University and The Center for Information Technology Policy have amassed a corpus of nearly a million emails from candidates and organizations running for office in 2020. The catalog on its own is dense and difficult to parse through unless one knows specifically what they’re searching for.</p><p>We set out to not only improve the email-treasure-hunting experience, but create added value in educating users about the findings as a whole with interactive data visualizations & infographics. In addition, we created an extendable design system to implement as research continues throughout other election cycles.</p>",
+    "<p>The teams at Princeton University and The Center for Information Technology Policy have amassed a corpus of nearly a million emails from candidates and organizations running for office in 2020. This catalog on its own is dense and difficult to parse through unless one knows specifically what they’re searching for.</p><p>We set out to not only improve the email-hunting experience, but create added value in educating users about the findings as a whole with interactive data visualizations & infographics. In addition, we created an extendable design system to implement as research continues throughout other election cycles</p>",
   userStories: [
     {
       user: "Political journalist",
       story:
-        "Journalists need to be able to search the database using complex and/or logic statements. They may also find benefit in searching through metadata and other methods that create easy benchmarks to compare findings",
+        "Journalists need to be able to search the database using complex and/or logic statements. They may also find benefit in searching through metadata and other methods that create easy benchmarks to compare findings.",
     },
     {
       user: "Politically interested",
@@ -52,17 +52,17 @@ const PageContent = {
   webTitle: "The New Identity Politics",
   webSubtitle: "Web design Refresh",
   webHTML:
-    "<p>In addition to improving the database UX, we refreshed the visual design site wide to a politically-inclusive palette with minimal distraction from the heart of our content. This refresh included the creation of different charts, data visualizations, and infographics.</p><p>While the project scope did not include a brand identity creation, we developed a brand system to extend across other election years and research topics for the Princeton Team to continue their research.</p>",
+    "<p>While improving the database UX, we refreshed the visual design to a politically inclusive palette with minimal distraction from the heart of our content. This refresh included the creation of different charts, data visualizations, and infographics. </p><p>A brand system was developed to extend across other election years and research topics for the Princeton Team to continue their research with. </p>",
   beforeScreens: "/images/election-emails/election-emails-before.png",
   afterScreens: "/images/election-emails/election-emails-after.png",
   videoFeatureTitle: "Manipulative Tactics",
   videoFeatureSubTitle: "A vote for education",
   videoFeatureHTML:
-    "<p>The researchers discovered dark UX patterns present in nearly half of all emails they received throughout the 2020 election. These ranged from forged replies to fake counters, meant to trick users into responding and sending money to campaigns and other political entities. In addition to searching the database, it was also imperative to educate users on these manipulations and teach them how to spot these tactics themselves.</p>",
+    "<p>The researchers discovered dark UX patterns present in nearly half of all emails they received throughout the 2020 election. These ranged from forged replies to fake counters, meant to trick users into responding and sending money to campaigns and other political entities. In addition to searching the database, we also wanted to educate users on these manipulations and teach them how to spot these tactics themselves.</p>",
   additionalTitle: "Searching the corpus",
   additionalSubTitle: "Leave no email unturned",
   additionalHTML:
-    "<p>With nearly 1 million emails in the database we created a search experience to narrow down specific topics using conditional statements while preserving a simple and approachable search route for casual users. Using the corpus ourselves, we are also able to show trends based on political parties and individual senders at a glance.</p>",
+    "<p>With nearly 1 million emails in the database we created a search experience to narrow down specific topics using conditional statements while preserving a simple and approachable search route for casual users. Using the corpus ourselves, we were also able to show trends based on political parties and individual senders at a glance.</p>",
   additionalScreens: "/images/election-emails/election-email-screens.png",
   folderString: "election-emails",
   frameCount: 133,
