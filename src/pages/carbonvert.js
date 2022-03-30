@@ -30,6 +30,7 @@ const PageContent = {
   beforeScreens: "/images/carbonvert/carbonvert-before.png",
   afterScreens: "/images/carbonvert/carbonvert-after.png",
   folderString: "carbonvert",
+  frameCount: 239,
 };
 
 const FeaturedProjects = [

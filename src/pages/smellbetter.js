@@ -29,6 +29,7 @@ const PageContent = {
   beforeScreens: "/images/smellbetter/smellbetter-before.png",
   afterScreens: "/images/smellbetter/smellbetter-after.png",
   folderString: "smellbetter",
+  frameCount: 284,
 };
 
 const FeaturedProjects = [
