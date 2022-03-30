@@ -53,8 +53,8 @@ const PageContent = {
   webSubtitle: "Web design Refresh",
   webHTML:
     "<p>While improving the database UX, we refreshed the visual design to a politically inclusive palette with minimal distraction from the heart of our content. This refresh included the creation of different charts, data visualizations, and infographics. </p><p>A brand system was developed to extend across other election years and research topics for the Princeton Team to continue their research with. </p>",
-  beforeScreens: "/images/election-emails/election-emails-before.png",
-  afterScreens: "/images/election-emails/election-emails-after.png",
+  beforeScreens: "/images/election-emails/election-emails-before.webp",
+  afterScreens: "/images/election-emails/election-emails-after.webp",
   videoFeatureTitle: "Manipulative Tactics",
   videoFeatureSubTitle: "A vote for education",
   videoFeatureHTML:
@@ -63,7 +63,7 @@ const PageContent = {
   additionalSubTitle: "Leave no email unturned",
   additionalHTML:
     "<p>With nearly 1 million emails in the database we created a search experience to narrow down specific topics using conditional statements while preserving a simple and approachable search route for casual users. Using the corpus ourselves, we were also able to show trends based on political parties and individual senders at a glance.</p>",
-  additionalScreens: "/images/election-emails/election-email-screens.png",
+  additionalScreens: "/images/election-emails/election-email-screens.webp",
   folderString: "election-emails",
   frameCount: 133,
 };

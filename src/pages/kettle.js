@@ -35,7 +35,7 @@ const PageContent = {
   additionalSubTitle: "In sprite of it all",
   additionalHTML:
     "<p>The animation on the technology page is controlled in a slightly different manner. While still based on user scroll position, the animation playing is a frame by frame export of an animated video, compiled into a spritesheet and repositioned behind a canvas as a way to not only interact with the content, but minimize file size.</p>",
-  additionalScreens: "/images/kettle/kettle-screens.png",
+  additionalScreens: "/images/kettle/kettle-screens.webp",
   frameCount: 221,
 };
 
