@@ -20,15 +20,15 @@ const PageContent = {
   },
   role: [{ label: "UI Design" }, { label: "Web Development" }],
   team: [{ member: "Nick Krusik" }, { member: "Micheal Nieling" }],
-  featuredImage: "smellbetter-featured.png",
+  featuredImage: "smellbetter-featured.webp",
   objectiveHTML:
     "<p>Based in Hawaii, the SmellBetter Hawai’i team needed a new marketing site that properly communicated their story as they grew their scent branding business to Hawaiian luxury hotels and beyond. This required extending the SmellBetter design system beyond print and agile communication during SmellBetter’s quick pivot to sanitization services during the Covid-19 pandemic.</p>",
   webTitle: "What does your website smell like?",
   webSubtitle: "Web design Refresh",
   webHTML:
     "<p>After a swimmingly successful rebranding, refreshing the SmellBetter Hawai’i marketing website allowed us to think on a more experiential canvas. We created some wavy animations and a custom set of icons and imagery for their scents and services for you to smell through your browser.</p>",
-  beforeScreens: "/images/smellbetter/smellbetter-before.png",
-  afterScreens: "/images/smellbetter/smellbetter-after.png",
+  beforeScreens: "/images/smellbetter/smellbetter-before.webp",
+  afterScreens: "/images/smellbetter/smellbetter-after.webp",
   folderString: "smellbetter",
   frameCount: 284,
 };
@@ -113,7 +113,7 @@ const SmellbetterPage = () => {
       <section className="py-20">
         <div className="container max-w-7xl mx-auto">
           <img
-            src="/images/smellbetter/smellbetter-screens.png"
+            src="/images/smellbetter/smellbetter-screens.webp"
             className="mx-auto"
             alt="A collage of screenshots of the smellbetter website"
             width="1100"

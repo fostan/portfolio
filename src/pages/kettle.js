@@ -23,7 +23,7 @@ const PageContent = {
     { member: "Abby Ruminski" },
     { member: "Tom Beck" },
   ],
-  featuredImage: "kettle-featured.png",
+  featuredImage: "kettle-featured.webp",
   objectiveHTML:
     "<p>Kettle is a reinsurance tool utilizing machine learning to mitigate catastrophic risk in the midst of global warming. Their first product, Cat Strip, has an industry leading 89% prediction success rate predicting wildfire damages in the state of California and deserved an equally as impressive internet debut. The design team had an impressive vision highlighting Kettle’s impressive numbers with stunning visuals and animations that would certainly set Kettle apart. </p>",
   webTitle: "Out for a scroll",
@@ -60,8 +60,8 @@ const KettlePage = () => {
   return (
     <DefaultLayout>
       <GatsbySeo
-        title="Fostan • A down to Earth solution"
-        description="This Case Study: This web design project featured front-end development and a fresh design system revamp for Carbonvert."
+        title="Fostan • A.I. Disaster Prevention"
+        description="This Case Study: This web design project featured front-end development for Kettle Reinsurance"
       />
       <div className="h-full w-full before:bg-[#C24E67] bg-[#C24E67]"> </div>
       <div className="h-full w-full before:bg-[#F8F8F8] bg-[#F8F8F8]"> </div>

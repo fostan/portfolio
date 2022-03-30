@@ -26,7 +26,7 @@ const PageContent = {
     { member: "Tom Beck" },
     { member: "Cody Nicoll" },
   ],
-  featuredImage: "iot-featured.png",
+  featuredImage: "iot-featured.webp",
   objectiveHTML:
     "<p>In a world where everything is connected to the internet, it’s becoming more and more difficult to control your own data. The Princeton/NYU & Consumer Reports teams needed a brand new front-end experience for their Internet of Things inspector app to put that power back in users’ hands. First, they needed to rethink their user experience, and with some exciting new features on the way, we introduced some brand new concepts to help collect user research.</p><p>The IoT inspector allows users to actually see the location of connections their smart devices are making. Users will be able to monitor data usage, block specific connections, and contribute data to the global network, creating a more private ‘Internet of Things’ for everyone.</p>",
   userStories: [
@@ -56,13 +56,13 @@ const PageContent = {
         "This is a user that works in the field of Iot or technology and has interest in the research endeavors that utilize this crowdsourced data.",
     },
   ],
-  beforeScreens: "/images/iot-inspector/iot-before.png",
-  afterScreens: "/images/iot-inspector/iot-after.png",
+  beforeScreens: "/images/iot-inspector/iot-before.webp",
+  afterScreens: "/images/iot-inspector/iot-after.webp",
   additionalTitle: "Research as a service",
   additionalSubTitle: "Thank you for sharing",
   additionalHTML:
     "<p>Most of the connections our smart devices make are obscured (because they’re not meant to be consumer facing). By scanning your own network and helping label your own devices, you contribute to an index of IoT smart devices users across the globe can use for their own privacy. Incentivizing users to share their data was achieved through color pattern reinforcement and an achievement system along with a robust onboarding process. </p>",
-  additionalScreens: "/images/iot-inspector/iot-screens.png",
+  additionalScreens: "/images/iot-inspector/iot-screens.webp",
   folderString: "iot-inspector",
 };
 

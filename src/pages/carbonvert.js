@@ -20,15 +20,15 @@ const PageContent = {
   },
   role: [{ label: "UI Design" }, { label: "Web Development" }],
   team: [{ member: "Abby Ruminski" }, { member: "Micheal Nieling" }],
-  featuredImage: "carbonvert-featured.png",
+  featuredImage: "carbonvert-featured.webp",
   objectiveHTML:
     "<p>Carbonvert develops the world’s largest carbon capture & storage projects. With the announcement of the largest CO2 storage facility in the world, they were in need of a fresh update to their website. In addition to showcasing their expertise in carbon storage, the Carbonvert website needed to educate users on tax credits and create financial incentives for companies to invest in carbon sequestration.</p>",
   webTitle: "A carbon first",
   webSubtitle: "Web design Refresh",
   webHTML:
     "<p>The website was a perfect launching point to not only explore an expansion of the brand, but also revisit aspects that weren't delivering Carbonvert’s messaging. With a refreshed color pallet, type styles, and a custom set of icons and illustrations, the brand was ready to extend to investment decks and beyond.</p>",
-  beforeScreens: "/images/carbonvert/carbonvert-before.png",
-  afterScreens: "/images/carbonvert/carbonvert-after.png",
+  beforeScreens: "/images/carbonvert/carbonvert-before.webp",
+  afterScreens: "/images/carbonvert/carbonvert-after.webp",
   folderString: "carbonvert",
   frameCount: 239,
 };
@@ -114,21 +114,21 @@ const CarbonvertPage = () => {
       <section className="py-20">
         <div className="container max-w-7xl mx-auto">
           <img
-            src="/images/carbonvert/carbonvert-screens-1.png"
+            src="/images/carbonvert/carbonvert-screens-1.webp"
             className="mx-auto"
             alt="A collage of screenshots of the carbonvert website"
             width="1100"
             height="932"
           />
           <img
-            src="/images/carbonvert/carbonvert-screens-2.png"
+            src="/images/carbonvert/carbonvert-screens-2.webp"
             className="mx-auto my-16 lg:my-28"
             alt="An illustration of a CO2 well and rock layers"
             width="698"
             height="581"
           />
           <img
-            src="/images/carbonvert/carbonvert-screens-3.png"
+            src="/images/carbonvert/carbonvert-screens-3.webp"
             className="mx-auto"
             alt="A collage of screenshots of the carbonvert website"
             width="1006"

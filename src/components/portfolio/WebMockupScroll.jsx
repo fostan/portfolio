@@ -34,7 +34,7 @@ const WebMockupScroll = ({ content }) => {
 
     const frameCount = frames;
     const currentFrame = (index) =>
-      `${framesDir}/${(index + 1).toString()}.jpg`;
+      `${framesDir}/${(index + 1).toString()}.webp`;
 
     const images = [];
     const screen = {
