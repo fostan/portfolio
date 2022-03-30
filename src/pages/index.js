@@ -32,13 +32,13 @@ const FeaturedProjects = [
     image: "/images/carbonvert/carbonvert-card.png",
     page: "/carbonvert/",
   },
-  // {
-  //   title: "Preventing Disaster with A.I.",
-  //   client: "Kettle",
-  //   tags: "Development",
-  //   image: "/images/kettle/kettle-card.png",
-  //   page: "/carbonvert/",
-  // },
+  {
+    title: "A.I. Disaster Prevention",
+    client: "Kettle",
+    tags: "Development",
+    image: "/images/kettle/kettle-card.png",
+    page: "/carbonvert/",
+  },
   {
     title: "Heaven Scent",
     client: "Smellbetter",

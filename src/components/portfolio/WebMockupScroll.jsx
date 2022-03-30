@@ -14,7 +14,10 @@ const WebMockupScroll = ({ content }) => {
     webTitle,
     webHTML,
     webSubtitle,
+    frameCount,
   } = content;
+
+  const frames = frameCount;
 
   const canvasRef = useRef(null);
 
@@ -22,16 +25,16 @@ const WebMockupScroll = ({ content }) => {
     const el = canvasRef.current;
     const context = el.getContext("2d");
     // maybe need to bring in slug and folder dir to set this dynamically
-    const framesDir = `/images/${folderString}`;
+    const framesDir = `/images/${folderString}/website`;
 
     canvasRef.current.width = 700;
     // canvasRef.current.height = 900;
     const heightRatio = 0.5625;
     canvasRef.current.height = canvasRef.current.width * heightRatio;
 
-    const frameCount = 104;
+    const frameCount = frames;
     const currentFrame = (index) =>
-      `${framesDir}/${(index + 1).toString()}.webp`;
+      `${framesDir}/${(index + 1).toString()}.jpg`;
 
     const images = [];
     const screen = {
@@ -85,7 +88,7 @@ const WebMockupScroll = ({ content }) => {
           <div id="canvasWrapper" className="relative col-span-2">
             <div className="sticky top-1/4 md:top-0 flex flex-col justify-center md:h-screen min-h-fit">
               <div
-                className={`bg-[${accentColor2}] -rotate-6 md:rotate-0 h-[295px] w-full md:h-5/6 md:w-5/6 lg:w-3/4 right-0 absolute rounded-sm shadow-100`}
+                className={`bg-[${accentColor2}] -rotate-6  md:rotate-0 h-[295px] w-full md:h-5/6 md:w-5/6 lg:w-3/4 right-0 absolute rounded-sm shadow-100`}
               ></div>
               <div className={`device-mockup`}>
                 <canvas ref={canvasRef} />
