@@ -58,8 +58,11 @@ const IndexPage = () => {
         title="Fostan"
         description="Front-End Development & UX/UI Design"
       />
-      <section className="pt-40 pb-20">
-        <div className="max-w-9xl mx-auto px-4">
+      <section className="pt-12 md:pt-40 pb-20">
+        <div className="max-w-9xl mx-auto px-4 grid cols-1">
+          <h1 className="text-white text-center text-7xl lg:text-9xl uppercase tracking-widest mt-8 md:order-last">
+            Fostan
+          </h1>
           <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
             <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center opacity-70 items-center flex-col lg:flex-row">
               <FaLightbulb className="mx-2" />
@@ -74,9 +77,6 @@ const IndexPage = () => {
               User Interface design
             </p>
           </div>
-          <h1 className="text-white text-center text-7xl lg:text-9xl uppercase tracking-widest mt-8">
-            Fostan
-          </h1>
         </div>
       </section>
 

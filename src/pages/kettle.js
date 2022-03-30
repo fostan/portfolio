@@ -75,7 +75,7 @@ const KettlePage = () => {
         <div className="relative max-w-5xl mx-auto">
           <div className="bg-[#C24E67] h-[120%] w-3/4 right-0 absolute top-1/2 transform -translate-y-1/2 rounded-sm shadow-100 "></div>
           <div className="relative">
-            <video width="80%" autoPlay loop muted height="auto">
+            <video width="80%" autoPlay loop muted playsinline height="auto">
               <source
                 src="/images/kettle/kettle-video-2.webm"
                 type="video/webm"
@@ -88,7 +88,7 @@ const KettlePage = () => {
         <div className="relative max-w-5xl mx-auto">
           <div className="bg-[#C24E67] h-[120%] w-3/4 left-0 absolute top-1/2 transform -translate-y-1/2 rounded-sm shadow-100 "></div>
           <div className="relative flex justify-end">
-            <video width="80%" autoPlay loop muted height="auto">
+            <video width="80%" autoPlay loop muted playsinline height="auto">
               <source
                 src="/images/kettle/kettle-video-1.webm"
                 type="video/webm"

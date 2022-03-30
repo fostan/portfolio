@@ -32,7 +32,7 @@ const UserTabs = ({ users }) => {
               ))}
             </Tab.List>
             <Tab.Panels
-              className={` rounded-sm bg-[${accentColor}] w-full md:ml-3 mr-8 text-[#FFFFFF] justify-center min-h-[300px] items-center flex shadow-2xl`}
+              className={` rounded-sm bg-[${accentColor}] w-full md:ml-3 md:mr-8 text-[#FFFFFF] justify-center min-h-[300px] items-center flex shadow-2xl`}
             >
               {userStories.map((user, i) => (
                 <Tab.Panel key={user.story} className="p-8">

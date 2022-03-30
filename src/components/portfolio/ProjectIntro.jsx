@@ -21,8 +21,8 @@ const ProjectIntro = ({ content }) => {
           <hr className="my-4 opacity-10" />
           <div className="grid grid-cols-2 md:grid-cols-3 my-6 ">
             <div className="col-span-2 md:col-span-1 mb-4">
-              <ul>
-                <li className="uppercase py-1 tracking-wider text-sm">
+              <ul className="grid grid-cols-2 md:grid-cols-1 mb-4 md:mb-0">
+                <li className="uppercase py-1 tracking-wider text-sm col-span-2 md:col-span-1">
                   Client
                 </li>
                 <li className="text-xs py-1 opacity-70">
