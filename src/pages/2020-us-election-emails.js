@@ -70,18 +70,18 @@ const PageContent = {
 
 const FeaturedProjects = [
   {
-    title: "A new look at the 2020 election",
-    client: "2020 US Election Emails",
-    tags: "Dev • Design • UX",
-    image: "/images/election-emails/election-emails-card.webp",
-    page: "/2020-us-election-emails/",
+    title: "A down to Earth solution",
+    client: "Carbonvert",
+    tags: "Development • Design",
+    image: "/images/carbonvert/carbonvert-card.webp",
+    page: "/carbonvert/",
   },
   {
-    title: "Downsizing our carbon footprint",
-    client: "Carbonvert",
-    tags: "Dev • Design",
-    image: "/images/carbonvert/carbonvert-card.png",
-    page: "/carbonvert/",
+    title: "Who are your devices talking to?",
+    client: "IoT Inspector",
+    tags: "Development • UX",
+    image: "/images/iot-inspector/iot-inspector-card.webp",
+    page: "/iot-inspector/",
   },
 ];
 

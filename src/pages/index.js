@@ -2,13 +2,14 @@ import * as React from "react";
 import HomeLayout from "../components/layouts/HomeLayout";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
 import PortfolioCard from "../components/global/PortfolioCard";
+import { FaLightbulb, FaRocket, FaHighlighter } from "react-icons/fa";
 
 const FeaturedProjects = [
   {
     title: "Who are your devices talking to?",
     client: "IoT Inspector",
     tags: "Development • UX",
-    image: "/images/iot-inspector/iot-inspector-card.png",
+    image: "/images/iot-inspector/iot-inspector-card.webp",
     page: "/iot-inspector/",
   },
   {
@@ -29,26 +30,26 @@ const FeaturedProjects = [
     title: "A down to Earth solution",
     client: "Carbonvert",
     tags: "Development • Design",
-    image: "/images/carbonvert/carbonvert-card.png",
+    image: "/images/carbonvert/carbonvert-card.webp",
     page: "/carbonvert/",
   },
   {
     title: "Heaven Scent",
     client: "Smellbetter",
     tags: "Development • Design",
-    image: "/images/smellbetter/smellbetter-card.png",
+    image: "/images/smellbetter/smellbetter-card.webp",
     page: "/smellbetter/",
   },
   {
     title: "A.I. Disaster Prevention",
     client: "Kettle",
     tags: "Development",
-    image: "/images/kettle/kettle-card.png",
+    image: "/images/kettle/kettle-card.webp",
     page: "/kettle/",
   },
 ];
 
-const altLayout = ["md:mt-16 lg:mt-0", "mb-16 "];
+const altLayout = ["md:mt-16 lg:mt-0", "mb-16 lg:mb-0"];
 
 const IndexPage = () => {
   return (
@@ -60,13 +61,16 @@ const IndexPage = () => {
       <section className="pt-40 pb-20">
         <div className="max-w-9xl mx-auto px-4">
           <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
-            <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center opacity-70">
+            <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center opacity-70 items-center">
+              <FaLightbulb className="mr-2" />
               User Experience design
             </p>
-            <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center">
+            <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center items-center">
+              <FaRocket className="mr-2" />
               Front-end web development
             </p>
-            <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center">
+            <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center items-center ">
+              <FaHighlighter className="mr-2" />
               User Interface design
             </p>
           </div>

@@ -43,16 +43,16 @@ const FeaturedProjects = [
   {
     title: "A new look at the 2020 election",
     client: "2020 US Election Emails",
-    tags: "Dev • Design • UX",
+    tags: "Development • Design • UX",
     image: "/images/election-emails/election-emails-card.webp",
     page: "/2020-us-election-emails/",
   },
   {
-    title: "Downsizing our carbon footprint",
-    client: "Carbonvert",
-    tags: "Dev • Design",
-    image: "/images/carbonvert/carbonvert-card.png",
-    page: "/carbonvert/",
+    title: "Heaven Scent",
+    client: "Smellbetter",
+    tags: "Development • Design",
+    image: "/images/smellbetter/smellbetter-card.webp",
+    page: "/smellbetter/",
   },
 ];
 
