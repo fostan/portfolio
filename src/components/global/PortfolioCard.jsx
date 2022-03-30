@@ -4,8 +4,6 @@ import { Link } from "gatsby";
 const PortfolioCard = ({ project }) => {
   const { title, client, tags, image, page } = project;
 
-  console.log(project);
-
   return (
     <>
       <div className={`relative group `}>

@@ -17,8 +17,8 @@ const UserTabs = ({ users }) => {
         <div className="lg:col-span-2 flex mt-4 items-center flex-col-reverse md:flex-row">
           <Tab.Group vertical>
             <Tab.List className="w-full md:w-fit flex md:flex-col justify-around md:justify-center border border-gray-100 shadow-inner items-center bg-white rounded-full p-2 h-fit my-4">
-              {userStories.map((i) => (
-                <Tab as={Fragment} key={i}>
+              {userStories.map((user) => (
+                <Tab as={Fragment} key={user.user}>
                   {({ selected }) => (
                     <button
                       className={
@@ -35,7 +35,7 @@ const UserTabs = ({ users }) => {
               className={` rounded-sm bg-[${accentColor}] w-full md:ml-3 mr-8 text-[#FFFFFF] justify-center min-h-[300px] items-center flex shadow-2xl`}
             >
               {userStories.map((user, i) => (
-                <Tab.Panel key={i} className="p-8">
+                <Tab.Panel key={user.story} className="p-8">
                   <h3 className="h3">{user.user}</h3>
                   <hr className="my-4 opacity-10" />
                   <p className="text-[#FFFFFF]">{user.story}</p>

@@ -22,7 +22,10 @@ const RelatedProjects = ({ projects }) => {
           </Link>
         </div>
         {projects.map((project, index) => (
-          <div key={index} className={`${altLayout[index % altLayout.length]}`}>
+          <div
+            key={project.title}
+            className={`${altLayout[index % altLayout.length]}`}
+          >
             <PortfolioCard project={project} />
           </div>
         ))}

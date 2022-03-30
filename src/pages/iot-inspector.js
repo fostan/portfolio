@@ -3,9 +3,7 @@ import { GatsbySeo } from "gatsby-plugin-next-seo";
 import DefaultLayout from "../components/layouts/DefaultLayout";
 import ProjectIntro from "../components/portfolio/ProjectIntro";
 import UserTabs from "../components/portfolio/UserTabs";
-import WebMockupScroll from "../components/portfolio/WebMockupScroll";
 import BeforeAfter from "../components/portfolio/BeforeAfter";
-import VideoFeature from "../components/portfolio/VideoFeature";
 import StickyGallery from "../components/portfolio/StickyGallery";
 import RelatedProjects from "../components/portfolio/RelatedProjects";
 

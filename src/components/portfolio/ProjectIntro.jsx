@@ -35,7 +35,7 @@ const ProjectIntro = ({ content }) => {
               <ul>
                 <li className="uppercase py-1 tracking-wider text-sm">Role</li>
                 {role.map((role, i) => (
-                  <li key={i} className="text-xs py-1 opacity-70">
+                  <li key={role.label} className="text-xs py-1 opacity-70">
                     {role.label}
                   </li>
                 ))}
@@ -45,7 +45,7 @@ const ProjectIntro = ({ content }) => {
               <ul>
                 <li className="uppercase py-1 tracking-wider text-sm">Team</li>
                 {team.map((team, i) => (
-                  <li key={i} className="text-xs py-1 opacity-70">
+                  <li key={team.member} className="text-xs py-1 opacity-70">
                     {team.member}
                   </li>
                 ))}
