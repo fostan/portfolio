@@ -59,24 +59,14 @@ const IndexPage = () => {
         description="Front-End Development & UX/UI Design"
       />
       <section className="pt-12 md:pt-40 pb-20">
-        <div className="max-w-9xl mx-auto px-4 grid cols-1">
+        <div className="px-4">
           <h1 className="text-white text-center text-7xl lg:text-9xl uppercase tracking-widest mt-8 md:order-last">
             Fostan
           </h1>
-          <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-8">
-            <p className="text-center text-sm uppercase text-primary tracking-widest flex justify-center opacity-70 items-center flex-col lg:flex-row">
-              <FaLightbulb className="mx-2" />
-              User Experience design
-            </p>
-            <p className="text-center text-sm uppercase flex-col lg:flex-row text-primary tracking-widest flex justify-center items-center">
-              <FaRocket className="mx-2" />
-              Front-end web development
-            </p>
-            <p className="text-center text-sm uppercase flex-col lg:flex-row text-primary tracking-widest flex justify-center items-center ">
-              <FaHighlighter className="mx-2" />
-              User Interface design
-            </p>
-          </div>
+          <p className="text-center text-gray-200 uppercase tracking-widest text-xs">
+            User Experience design • Front-end web development •  User Interface
+            design
+          </p>
         </div>
       </section>
 
