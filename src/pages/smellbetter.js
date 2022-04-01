@@ -26,7 +26,7 @@ const PageContent = {
   webTitle: "What does your website smell like?",
   webSubtitle: "Web design Refresh",
   webHTML:
-    "<p>After a swimmingly successful rebranding, refreshing the SmellBetter Hawai’i marketing website allowed us to think on a more experiential canvas. We created some wavy animations and a custom set of icons and imagery for their scents and services for you to smell through your browser.</p>",
+    "<p>After a swimmingly successful rebranding, refreshing the SmellBetter Hawai’i marketing website allowed us to think on a more experiential canvas. We created some wavy animations with a custom set of icons and imagery for their scents & services for you to smell through your browser.</p>",
   beforeScreens: "/images/smellbetter/smellbetter-before.webp",
   afterScreens: "/images/smellbetter/smellbetter-after.webp",
   folderString: "smellbetter",

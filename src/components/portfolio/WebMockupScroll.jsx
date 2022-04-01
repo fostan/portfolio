@@ -24,11 +24,9 @@ const WebMockupScroll = ({ content }) => {
   useEffect(() => {
     const el = canvasRef.current;
     const context = el.getContext("2d");
-    // maybe need to bring in slug and folder dir to set this dynamically
     const framesDir = `/images/${folderString}/website`;
 
     canvasRef.current.width = 700;
-    // canvasRef.current.height = 900;
     const heightRatio = 0.5625;
     canvasRef.current.height = canvasRef.current.width * heightRatio;
 
