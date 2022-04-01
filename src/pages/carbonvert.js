@@ -26,7 +26,7 @@ const PageContent = {
   webTitle: "A carbon first",
   webSubtitle: "Web design Refresh",
   webHTML:
-    "<p>The website was a perfect launching point to not only explore an expansion of the brand, but also revisit aspects that weren't delivering Carbonvert’s messaging. With a refreshed color pallet, type styles, and a custom set of icons and illustrations, the brand was ready to extend to investment decks and beyond.</p>",
+    "<p>The website was a perfect launching point to not only explore an expansion of the brand, but also revisit aspects that weren't delivering Carbonvert’s messaging. With a refreshed color pallet, type styles, and a custom set of icons and illustrations, the brand was ready to be applied to investment decks, presentations, and beyond.</p>",
   beforeScreens: "/images/carbonvert/carbonvert-before.webp",
   afterScreens: "/images/carbonvert/carbonvert-after.webp",
   folderString: "carbonvert",

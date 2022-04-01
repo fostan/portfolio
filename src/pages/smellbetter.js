@@ -15,7 +15,7 @@ const PageContent = {
   accentColor2: "#F37F55",
   tagline: "Heaven Scent",
   client: {
-    clientName: "SmellBetter Hawai'i'",
+    clientName: "SmellBetter Hawai'i",
     clientProject: "SmellBetter Website",
   },
   role: [{ label: "UI Design" }, { label: "Web Development" }],
@@ -122,7 +122,7 @@ const SmellbetterPage = () => {
         </div>
       </section>
       <section className="py-20 bg-[#F37F55]">
-        <div className="container max-w-8xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mx-auto">
+        <div className="container max-w-8xl grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mx-auto">
           <img
             src="/images/smellbetter/icon-7.svg"
             alt="Huckleberry"
