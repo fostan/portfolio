@@ -31,7 +31,7 @@ const PageContent = {
   ],
   featuredImage: "election-email-featured.webp",
   objectiveHTML:
-    "<p>The teams at Princeton University and The Center for Information Technology Policy have amassed a corpus of nearly a million emails from candidates and organizations running for office in 2020. This catalog on its own is dense and difficult to parse through unless one knows specifically what they’re searching for.</p><p>We set out to not only improve the email-hunting experience, but create added value in educating users about the findings as a whole with interactive data visualizations & infographics. In addition, we created an extendable design system to implement as research continues throughout other election cycles</p>",
+    "<p>The teams at Princeton University and The Center for Information Technology Policy have amassed a corpus of nearly a million emails from candidates and organizations running for office in 2020. This catalog on its own is dense and difficult to parse through unless one knows specifically what they’re searching for.</p><p>We set out to not only improve the email-hunting experience, but create added value in educating users about the findings as a whole with interactive data visualizations & infographics. In addition, we created an extendable design system to implement as research continues throughout other election cycles.</p>",
   userStories: [
     {
       user: "Political journalist",
