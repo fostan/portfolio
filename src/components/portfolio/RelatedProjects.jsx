@@ -1,12 +1,13 @@
 import React from "react";
 import PortfolioCard from "../global/PortfolioCard";
 import { Link } from "gatsby";
+import { HiArrowSmRight } from "react-icons/hi";
 
 const altLayout = ["md:mt-16", ""];
 
 const RelatedProjects = ({ projects }) => {
   return (
-    <section className="bg-gradient-to-t from-gray-800 via-gray-900 to-black py-20 text-white">
+    <section className="bg-gradient-to-t from-gray-800  to-neutral-900 py-20 text-white">
       <div className="container max-w-6xl mx-auto grid md:grid-cols-3 gap-8 lg:gap-16">
         <div className="md:order-last flex justify-center h-full flex-col mb-20 md:mb-0">
           <h2 className="text-7xl font-serif font-black">
@@ -16,9 +17,10 @@ const RelatedProjects = ({ projects }) => {
           </h2>
           <Link
             to="/"
-            className="underline text-primary hover:text-white hover:opacity-75 mt-6"
+            className="uppercase tracking-widest w-fit  group flex items-center gap-1 text-sky-200 hover:text-white transition hover:opacity-75 mt-6"
           >
             Or view all work
+            <HiArrowSmRight className="group-hover:translate-x-2 transition opacity-50 group-hover:opacity-100" />
           </Link>
         </div>
         {projects.map((project, index) => (

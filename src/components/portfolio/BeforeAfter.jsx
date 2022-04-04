@@ -10,7 +10,7 @@ const BeforeAfter = ({ images }) => {
       ></div>
       <div className="container mx-auto max-w-7xl grid md:grid-cols-2 md:gap-32">
         <div className="flex flex-col items-center">
-          <span className="lg:text-gray-800 text-5xl lg:text-7xl font-serif font-black  mb-4">
+          <span className="lg:text-neutral-800 text-5xl lg:text-7xl font-serif font-black  mb-4">
             Before
           </span>
           <img
@@ -23,7 +23,7 @@ const BeforeAfter = ({ images }) => {
           className={`md:hidden h-4  w-2/3 my-20 mx-auto bg-[${accentColor}]`}
         />
         <div className="flex flex-col items-center md:mt-40">
-          <span className="text-gray-800 text-5xl lg:text-7xl font-serif font-black mb-4">
+          <span className="text-neutral-800 text-5xl lg:text-7xl font-serif font-black mb-4">
             After
           </span>
           <img

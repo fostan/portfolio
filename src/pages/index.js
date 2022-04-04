@@ -59,36 +59,25 @@ const IndexPage = () => {
         description="Front-End Development & UX/UI Design"
       />
       <section className="pt-12 md:pt-40 pb-20">
-        <div className="px-4">
-          <h1 className="text-white text-center text-7xl lg:text-9xl uppercase tracking-widest mt-8 md:order-last">
+        <div className="px-4 mx-auto container">
+          <h1 className="text-white text-center text-xl lg:text-9xl uppercase tracking-widest mt-8 md:order-last">
             Fostan
           </h1>
-          <p className="text-center text-gray-200 uppercase tracking-widest text-xs">
-            User Experience design • Front-end web development •  User Interface
-            design
-          </p>
+          <ul className="flex mx-auto justify-center gap-16">
+            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50">
+              User Experience design
+            </li>
+            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50">
+              Front-end web development
+            </li>
+            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50">
+              User Interface design
+            </li>
+          </ul>
         </div>
       </section>
 
       <div className="grid max-w-3xl py-16 mx-auto md:grid-cols-2 lg:max-w-6xl lg:grid-cols-3 gap-16 px-4 overflow-x-hidden">
-        {/* <div className="flex flex-col py-4 md:py-10 md:col-span-2 relative">
-          <BioText />
-          <div className="absolute -bottom-[90px] -right-[175px] md:-top-1/2 md:right-0">
-            <Filters />
-          </div>
-          <div className="absolute -bottom-[90px] -right-[175px] md:-top-1/2 md:right-0">
-            <img
-              src="/images/header-glow.png"
-              className="object-fit inset-0 max-w-[400px] scale-150"
-              role="presentation"
-              width="400px"
-              height="480px"
-            />
-          </div>
-        </div> */}
-        {/* <div className="p-4 text-white">
-          <Filters />
-        </div> */}
         {FeaturedProjects.map((project, index) => (
           <div key={index} className={`${altLayout[index % altLayout.length]}`}>
             <PortfolioCard project={project} />

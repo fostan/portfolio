@@ -25,7 +25,7 @@
   .text-filter {
     font-family: mixta-pro, serif;
     text-shadow: #fff 0px 0px 0px;
-    @apply mb-3 text-transparent text-gray-800 transition-all opacity-50 cursor-pointer md:text-6xl hover:text-white;
+    @apply mb-3 text-transparent text-neutral-800 transition-all opacity-50 cursor-pointer md:text-6xl hover:text-white;
     text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff;
   }
   .container {
@@ -44,7 +44,7 @@
 @layer utilities {
   .h2 {
     font-family: mixta-pro, serif;
-    @apply mb-3 text-2xl font-black font-serif tracking-wide text-gray-900;
+    @apply mb-4 text-3xl font-black font-serif tracking-wide text-gray-900;
   }
   .h3 {
     @apply uppercase tracking-widest text-sm opacity-75;
