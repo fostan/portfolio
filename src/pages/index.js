@@ -63,14 +63,14 @@ const IndexPage = () => {
           <h1 className="text-white text-center text-xl lg:text-9xl uppercase tracking-widest mt-8 md:order-last">
             Fostan
           </h1>
-          <ul className="flex mx-auto justify-center gap-16">
-            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50">
+          <ul className="flex mx-auto justify-center gap-4 md:gap-16 flex-col md:flex-row">
+            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50 text-center">
               User Experience design
             </li>
-            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50">
+            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50 text-center">
               Front-end web development
             </li>
-            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50">
+            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50 text-center">
               User Interface design
             </li>
           </ul>
