@@ -96,6 +96,7 @@ const ElectionEmailPage = () => {
       <div className="hidden before:bg-[#AD3F31] bg-[#AD3F31] border-[#AD3F31]"></div>
       <div className="hidden before:bg-[#376996] bg-[#376996]"></div>
       <div className="hidden before:bg-[#1F1D1D] bg-[#1F1D1D]"></div>
+      <div className="hidden from-[#F5F4EE]"></div>
       <ProjectIntro content={PageContent} />
       <UserTabs users={PageContent} />
       <WebMockupScroll content={PageContent} />

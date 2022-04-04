@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 const Navigation = () => {
   return (
-    <header className="bg-gray-900 border-b-2 border-gray-800">
+    <header className="bg-neutral-800 border-b-2 border-neutral-900">
       <div className="container max-w-6xl flex justify-center text-sky-100 hover:text-white mx-auto ">
         <Link
           to="/"
