@@ -8,6 +8,7 @@ import VideoFeature from "../components/portfolio/VideoFeature";
 import StickyGallery from "../components/portfolio/StickyGallery";
 import RelatedProjects from "../components/portfolio/RelatedProjects";
 import ProjectIntro from "../components/pages/carbonvert/ProjectIntro";
+import WebScroll from "../components/pages/carbonvert/WebScroll";
 
 const PageContent = {
   darkColor: "#2F2A2B",
@@ -64,9 +65,8 @@ const CarbonvertPage = () => {
       <div className="hidden before:bg-[#99EEF3] bg-[#99EEF3] border-[#99EEF3]"></div>
 
       <ProjectIntro />
+      <WebScroll />
 
-      {/* <ProjectIntro content={PageContent} /> */}
-      <WebMockupScroll content={PageContent} />
       <BeforeAfter images={PageContent} />
       <section className="py-20 bg-[#F5F5F5]">
         <div className="container max-w-8xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mx-auto">

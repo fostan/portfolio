@@ -6,27 +6,17 @@ import parse from "html-react-parser";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const WebMockupScroll = ({ content }) => {
-  const {
-    accentColor2,
-    lightColor,
-    folderString,
-    webTitle,
-    webHTML,
-    webSubtitle,
-    frameCount,
-  } = content;
-
-  const frames = frameCount;
+const WebScroll = () => {
+  const frames = 239;
 
   const canvasRef = useRef(null);
 
   useEffect(() => {
     const el = canvasRef.current;
     const context = el.getContext("2d");
-    const framesDir = `/images/${folderString}/website`;
+    const framesDir = "/images/carbonvert/website";
 
-    canvasRef.current.width = 900;
+    canvasRef.current.width = 800;
     const heightRatio = 0.5625;
     canvasRef.current.height = canvasRef.current.width * heightRatio;
 
@@ -67,27 +57,33 @@ const WebMockupScroll = ({ content }) => {
   }, []);
 
   return (
-    <section className={`py-20 md:py-0 bg-[${lightColor}]`}>
-      <div className="container mx-auto max-w-7xl grid md:grid-cols-3 gap-8 relative">
-        <div className="relative mb-[100px] md:mb-0">
-          <div className="md:sticky top-0 md:h-screen min-h-fit">
-            <div className="flex flex-col justify-center md:h-screen">
-              <h2 className="mb-4">
-                <span className="h3">{webSubtitle}</span>
-                <br />
-                <span className="h2">{webTitle}</span>
-              </h2>
-              {parse(webHTML)}
+    <section className="py-20 md:py-0 bg-gradient-to-tl from-[#40CAD9] to-[#B7EDF3]">
+      <div className="mx-auto max-w-9xl hidden md:grid md:grid-cols-7 gap-8 relative">
+        <div className="col-span-4 order-last">
+          <div id="canvasWrapper" className="relative col-span-2 ">
+            <div className="sticky top-[50px] md:top-0  md:h-screen min-h-fit w-screen md:w-auto grid items-center justify-start ">
+              <div className="device-mockup">
+                <canvas ref={canvasRef} />
+              </div>
             </div>
           </div>
         </div>
-        <div className="md:col-span-2">
-          {/* set canvas wrapper height based on length of webpage scroll */}
-          <div id="canvasWrapper" className="relative col-span-2">
-            <div className="sticky top-1/4 md:top-0 flex flex-col justify-center md:h-screen min-h-fit">
-              <div className={`device-mockup`}>
-                <canvas ref={canvasRef} />
-              </div>
+        <div className="col-span-3 relative mb-[100px] md:mb-0  px-4">
+          <div className="md:sticky top-0 md:h-screen min-h-fit lg:w-[350px] mx-auto">
+            <div className="flex flex-col justify-center md:h-screen">
+              <h2 className="mb-4">
+                <span className="h3">Web Design Refresh</span>
+                <br />
+                <span className="h2">A carbon first</span>
+              </h2>
+              <p>
+                The website was a perfect launching point to not only explore an
+                expansion of the brand, but also revisit aspects that weren't
+                delivering Carbonvert’s messaging. With a refreshed color
+                pallet, type styles, and a custom set of icons and
+                illustrations, the brand was ready to be applied to investment
+                decks, presentations, and beyond.
+              </p>
             </div>
           </div>
         </div>
@@ -96,4 +92,4 @@ const WebMockupScroll = ({ content }) => {
   );
 };
 
-export default WebMockupScroll;
+export default WebScroll;

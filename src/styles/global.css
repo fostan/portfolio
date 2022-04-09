@@ -9,13 +9,28 @@
     @apply font-sans;
   }
   h1 {
-    @apply mb-3 text-4xl font-serif  text-dark;
+    font-family: bely-display-pro, serif;
+    @apply mb-3 text-6xl font-serif  text-dark;
+  }
+  h2 {
+    font-family: bely-display-pro, serif;
+    @apply mb-1 text-3xl font-serif  text-dark;
+  }
+  h3 {
+    @apply uppercase tracking-widest text-sm opacity-75;
+  }
+  h4 {
+    font-family: bely-display-pro, serif;
+    @apply uppercase tracking-widest text-sm opacity-75;
+  }
+  dd {
+    @apply text-sm text-clay;
   }
   p {
     @apply text-dark mb-3 opacity-80 text-2xl;
   }
   section {
-    @apply py-12 md:py-16;
+    @apply py-20 md:py-40;
   }
 }
 
@@ -33,13 +48,13 @@
     @apply px-6;
   }
   .device-mockup {
-    @apply rounded-xl w-fit relative flex items-center h-fit p-4  mx-auto bg-[url('../images/icon.png')];
+    @apply w-[886px] mx-auto lg:mx-0 relative flex items-center h-[519px] bg-[url('../images/screen.png')] max-w-[100%] mt-[62px];
   }
   #canvasWrapper {
     @apply h-[7000px];
   }
   #canvasWrapper canvas {
-    @apply inset-0 mx-auto left-0 right-0 relative w-full;
+    @apply inset-0 mx-auto right-0 bg-gray-500/30 absolute top-[5px] -left-[73px];
   }
   .project-filters {
     @apply justify-between w-full gap-2 flex sm:relative fixed z-50 bottom-0 left-0 h-20 md:h-auto bg-dark sm:bg-transparent;
@@ -57,6 +72,10 @@
     @apply mb-4 text-3xl font-black font-serif tracking-wide text-gray-900;
   }
   .h3 {
+    @apply uppercase tracking-widest text-sm opacity-75;
+  }
+  .h4 {
+    font-family: bely-display-pro, serif;
     @apply uppercase tracking-widest text-sm opacity-75;
   }
   .tag-group {
