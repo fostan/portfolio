@@ -2,10 +2,10 @@ import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
-const IoTCard = () => {
+const SmellBetterCard = () => {
   return (
-    <div className="row-span-3 col-span-1 group bg-opacity-0" id="iot">
-      <Link to="/iot" className="card h-[18rem] flex">
+    <div className="row-span-4 col-span-1 group opacity-0" id="smellbetter">
+      <Link to="/smellbetter" className="card h-[24rem] flex ">
         <div className="relative bg-black h-full w-full rounded-lg overflow-hidden group-hover:scale-[97%] ease-out duration-300 transition">
           <div className="absolute inset-0">
             <StaticImage
@@ -19,19 +19,19 @@ const IoTCard = () => {
             />
           </div>
           <div className="relative max-w-7xl p-6 h-full  flex flex-col justify-end">
-            <p className="text-indigo-100">IoT Inspector</p>
+            <p className="text-indigo-100">SmellBetter Hawai'i</p>
             <h1 className="text-3xl font-black text-white mb-0">
-              Who are your devices talking to?
+              Heaven Scent
             </h1>
           </div>
         </div>
       </Link>
       <ul className="tag-group">
-        <li className="tag">User Experience</li>
+        <li className="tag">U/I design</li>
         <li className="tag">Front-end development</li>
       </ul>
     </div>
   );
 };
 
-export default IoTCard;
+export default SmellBetterCard;

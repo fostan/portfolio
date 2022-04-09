@@ -1,12 +1,15 @@
 import React from "react";
 import { Tab } from "@headlessui/react";
 import TabAllWork from "./TabAllWork";
+import TabUI from "./TabUI";
+import TabUX from "./TabUX";
+import TabDev from "./TabDev";
 
 const ProjectTabs = () => {
   return (
     <div className="container mx-auto max-w-4xl">
       <Tab.Group>
-        <div className="w-full md:w-10/12 mx-auto mb-16">
+        <div className="w-full md:w-10/12 mx-auto mb-12">
           <Tab.List className="flex justify-between w-full">
             <Tab
               className={({ selected }) =>
@@ -47,12 +50,20 @@ const ProjectTabs = () => {
           </Tab.List>
         </div>
         <Tab.Panels>
-          <Tab.Panel>
-            <TabAllWork />
-          </Tab.Panel>
-          <Tab.Panel>Content 2</Tab.Panel>
-          <Tab.Panel>Content 3</Tab.Panel>
-          <Tab.Panel>Content 4</Tab.Panel>
+          <div className="pt-[25px]">
+            <Tab.Panel>
+              <TabAllWork />
+            </Tab.Panel>
+            <Tab.Panel>
+              <TabUI />
+            </Tab.Panel>
+            <Tab.Panel>
+              <TabUX />
+            </Tab.Panel>
+            <Tab.Panel>
+              <TabDev />
+            </Tab.Panel>
+          </div>
         </Tab.Panels>
       </Tab.Group>
     </div>

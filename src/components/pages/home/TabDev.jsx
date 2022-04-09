@@ -9,7 +9,7 @@ import SmellBetterCard from "../../portfolio-cards/SmellBetterCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const TabAllWork = () => {
+const TabDev = () => {
   useEffect(() => {
     gsap.to("#carbonvert", {
       y: -25,
@@ -86,13 +86,13 @@ const TabAllWork = () => {
   }, []);
   return (
     <div className="grid md:gap-x-6 gap-y-4 grid-rows-11 grid-cols-1 md:grid-cols-2">
+      <KettleCard />
       <CarbonvertCard />
+      <SmellBetterCard />
       <IoTCard />
       <ElectionEmailCard />
-      <SmellBetterCard />
-      <KettleCard />
     </div>
   );
 };
 
-export default TabAllWork;
+export default TabDev;

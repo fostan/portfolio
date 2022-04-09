@@ -9,7 +9,7 @@ import SmellBetterCard from "../../portfolio-cards/SmellBetterCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const TabAllWork = () => {
+const TabUI = () => {
   useEffect(() => {
     gsap.to("#carbonvert", {
       y: -25,
@@ -17,18 +17,6 @@ const TabAllWork = () => {
       duration: 5,
       scrollTrigger: {
         trigger: "#carbonvert",
-        markers: false,
-        start: "top bottom",
-        end: "top 83%",
-        scrub: 1,
-      },
-    });
-    gsap.to("#kettle", {
-      y: -25,
-      opacity: "1",
-      duration: 5,
-      scrollTrigger: {
-        trigger: "#kettle",
         markers: false,
         start: "top bottom",
         end: "top 83%",
@@ -47,18 +35,6 @@ const TabAllWork = () => {
         scrub: 1,
       },
     });
-    gsap.to("#iot", {
-      y: -25,
-      opacity: "1",
-      duration: 5,
-      scrollTrigger: {
-        trigger: "#iot",
-        markers: false,
-        start: "top bottom",
-        end: "top 83%",
-        scrub: 1,
-      },
-    });
     gsap.to("#electionEmails", {
       y: -25,
       opacity: "1",
@@ -71,28 +47,14 @@ const TabAllWork = () => {
         scrub: 1,
       },
     });
-    gsap.to("#dggt", {
-      y: -25,
-      opacity: "1",
-      duration: 5,
-      scrollTrigger: {
-        trigger: "#dggt",
-        markers: false,
-        start: "top bottom",
-        end: "top 83%",
-        scrub: 1,
-      },
-    });
   }, []);
   return (
     <div className="grid md:gap-x-6 gap-y-4 grid-rows-11 grid-cols-1 md:grid-cols-2">
-      <CarbonvertCard />
-      <IoTCard />
-      <ElectionEmailCard />
       <SmellBetterCard />
-      <KettleCard />
+      <CarbonvertCard />
+      <ElectionEmailCard />
     </div>
   );
 };
 
-export default TabAllWork;
+export default TabUI;

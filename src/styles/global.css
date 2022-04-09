@@ -52,4 +52,10 @@
   .h3 {
     @apply uppercase tracking-widest text-sm opacity-75;
   }
+  .tag-group {
+    @apply flex gap-2 py-4;
+  }
+  .tag {
+    @apply rounded-md px-3 py-1 bg-dark/10 text-xs;
+  }
 }

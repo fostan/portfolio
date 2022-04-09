@@ -15,7 +15,7 @@ const IndexPage = () => {
         description="Front-End Development & UX/UI Design"
       />
       <div className="h-3 w-full bg-dark"></div>
-      <section>
+      <section className="pt-40">
         <div className="container max-w-md mx-auto text-center">
           <div>
             <h1 className="text-hero mb-0">Fostan.</h1>
@@ -26,7 +26,7 @@ const IndexPage = () => {
           <ul></ul>
         </div>
       </section>
-      <section className="pt-0 ">
+      <section className="">
         <ProjectTabs />
       </section>
 
