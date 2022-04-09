@@ -11,8 +11,21 @@ const IndexPage = () => {
   return (
     <HomeLayout>
       <GatsbySeo
-        title="Fostan"
+        title="Fostan • Digital Interface Foundry"
         description="Front-End Development & UX/UI Design"
+        openGraph={{
+          url: "https://www.fostan.xyz",
+          title: "Fostan",
+          description: "Front-End Development & UX/UI Design",
+          images: [
+            {
+              url: "/images/social.png",
+              width: 800,
+              height: 600,
+              alt: "Front-End Development & UX/UI Design by Fostan",
+            },
+          ],
+        }}
       />
       <div className="h-3 w-full bg-dark"></div>
       <section className="pt-40">
