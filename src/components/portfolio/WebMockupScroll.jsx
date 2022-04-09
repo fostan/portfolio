@@ -85,9 +85,6 @@ const WebMockupScroll = ({ content }) => {
           {/* set canvas wrapper height based on length of webpage scroll */}
           <div id="canvasWrapper" className="relative col-span-2">
             <div className="sticky top-1/4 md:top-0 flex flex-col justify-center md:h-screen min-h-fit">
-              <div
-                className={`bg-[${accentColor2}] -rotate-6  md:rotate-0 h-[295px] w-full md:h-5/6 md:w-5/6 lg:w-3/4 right-0 absolute rounded-sm shadow-100`}
-              ></div>
               <div className={`device-mockup`}>
                 <canvas ref={canvasRef} />
               </div>

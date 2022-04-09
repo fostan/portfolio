@@ -5,10 +5,13 @@ module.exports = {
       colors: {
         primary: "#D0B0CF",
         light: "#F9F7EE",
-        dark: "#1F1D1D",
+        dark: "#0f010a",
+        clay: "#b8a5b1",
+        brown: "#463f3c",
       },
       fontFamily: {
-        serif: ["Mixta Pro", "serif"],
+        serif: ["Bely Display", "serif"],
+        sans: ["Utile", "sans-serif"],
       },
       gridTemplateRows: {
         7: "repeat(7, minmax(0, 1fr))",

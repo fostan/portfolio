@@ -28,10 +28,10 @@ const IndexPage = () => {
         }}
       />
       <div className="h-3 w-full bg-dark"></div>
-      <section className="pt-40">
-        <div className="container max-w-md mx-auto text-center">
+      <section className="pt-20  md:pt-40">
+        <div className="container max-w-2xl mx-auto text-center">
           <div>
-            <h1 className="text-hero mb-0">Fostan.</h1>
+            <h1 className="text-hero mb-2">Fostan.</h1>
             <p className="opacity-50">
               Just a kid who wanted the coolest Myspace page.
             </p>
@@ -39,7 +39,7 @@ const IndexPage = () => {
           <ul></ul>
         </div>
       </section>
-      <section className="">
+      <section className="pt-0 md:pt-auto">
         <ProjectTabs />
       </section>
 

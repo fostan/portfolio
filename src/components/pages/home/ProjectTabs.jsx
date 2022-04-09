@@ -4,48 +4,60 @@ import TabAllWork from "./TabAllWork";
 import TabUI from "./TabUI";
 import TabUX from "./TabUX";
 import TabDev from "./TabDev";
+import { BsFillCollectionFill } from "react-icons/Bs";
+import { FaFileCode } from "react-icons/Fa";
+import { MdTouchApp } from "react-icons/Md";
+import { TiFlowSwitch } from "react-icons/Ti";
 
 const ProjectTabs = () => {
   return (
-    <div className="container mx-auto max-w-4xl">
+    <div className="container mx-auto max-w-3xl">
       <Tab.Group>
         <div className="w-full md:w-10/12 mx-auto mb-12">
-          <Tab.List className="flex justify-between w-full">
+          <Tab.List className="project-filters">
             <Tab
               className={({ selected }) =>
                 selected
-                  ? "bg-dark rounded-full border border-dark text-light transition py-1 px-5 text-sm tracking-wider"
-                  : "rounded-full border border-gray-500 py-1 px-5 tracking-wider transition text-sm duration-700 hover:bg-dark/80 hover:text-light/80"
+                  ? "project-filter-pill project-filter-pill-active"
+                  : "project-filter-pill "
               }
             >
-              All work
+              <BsFillCollectionFill className="sm:hidden" />
+              <span className="block sm:hidden">All</span>
+              <span className="hidden sm:block">All work</span>
             </Tab>
             <Tab
               className={({ selected }) =>
                 selected
-                  ? "bg-dark rounded-full border border-dark text-light transition py-1 px-5 text-sm tracking-wider"
-                  : "rounded-full border border-gray-500 py-1 px-5 tracking-wider transition text-sm duration-700 hover:bg-dark/80 hover:text-light/80"
+                  ? "project-filter-pill project-filter-pill-active"
+                  : "project-filter-pill"
               }
             >
-              U/I design
+              <MdTouchApp className="sm:hidden" />
+              <span className="block sm:hidden">U/I</span>
+              <span className="hidden sm:block">U/I Design</span>
             </Tab>
             <Tab
               className={({ selected }) =>
                 selected
-                  ? "bg-dark rounded-full border border-dark text-light transition py-1 px-5 text-sm tracking-wider"
-                  : "rounded-full border border-gray-500 py-1 px-5 tracking-wider transition text-sm duration-700 hover:bg-dark/80 hover:text-light/80"
+                  ? "project-filter-pill project-filter-pill-active"
+                  : "project-filter-pill"
               }
             >
-              User experience
+              <TiFlowSwitch className="sm:hidden" />
+              <span className="block sm:hidden">U/X</span>
+              <span className="hidden sm:block">User experience</span>
             </Tab>
             <Tab
               className={({ selected }) =>
                 selected
-                  ? "bg-dark rounded-full border border-dark text-light transition py-1 px-5 text-sm tracking-wider"
-                  : "rounded-full border border-gray-500 py-1 px-5 tracking-wider transition text-sm duration-700 hover:bg-dark/80 hover:text-light/80"
+                  ? "project-filter-pill  project-filter-pill-active"
+                  : "project-filter-pill"
               }
             >
-              Front-end development
+              <FaFileCode className="sm:hidden" />
+              <span className="block sm:hidden">Dev</span>
+              <span className="hidden sm:block">Front-end development</span>
             </Tab>
           </Tab.List>
         </div>
