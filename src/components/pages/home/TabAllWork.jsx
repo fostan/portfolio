@@ -85,7 +85,7 @@ const TabAllWork = () => {
     });
   }, []);
   return (
-    <div className="grid md:gap-x-6 gap-y-4 grid-rows-11 grid-cols-1 md:grid-cols-2">
+    <div className="grid gap-x-3 md:gap-x-6 gap-y-4 grid-rows-11 grid-cols-2">
       <CarbonvertCard />
       <IoTCard />
       <ElectionEmailCard />

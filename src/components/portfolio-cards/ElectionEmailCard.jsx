@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
+import TagUI from "../global/TagUI";
+import TagUX from "../global/TagUX";
+import TagDev from "../global/TagDev";
 
 const ElectionEmailCard = () => {
   return (
@@ -18,18 +21,16 @@ const ElectionEmailCard = () => {
               aria-hidden="true"
             />
           </div>
-          <div className="relative max-w-7xl p-6 h-full  flex flex-col justify-end">
-            <p className="text-indigo-100">2020 US Election Emails</p>
-            <h1 className="text-3xl font-black text-white mb-0">
-              A new look at the 2020 election
-            </h1>
+          <div className="relative max-w-7xl p-3 sm:p-6 h-full  flex flex-col justify-end">
+            <p className="text-light text-sm">2020 US Election Emails</p>
+            <h1 className="card-title">A new look at the 2020 election</h1>
           </div>
         </div>
       </Link>
       <ul className="tag-group">
-        <li className="tag">U/I design</li>
-        <li className="tag">User experience</li>
-        <li className="tag">Front-end development</li>
+        <TagUI />
+        <TagUX />
+        <TagDev />
       </ul>
     </div>
   );

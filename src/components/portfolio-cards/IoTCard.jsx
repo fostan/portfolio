@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
+import TagDev from "../global/TagDev";
+import TagUX from "../global/TagUX";
 
 const IoTCard = () => {
   return (
@@ -18,17 +20,15 @@ const IoTCard = () => {
               aria-hidden="true"
             />
           </div>
-          <div className="relative max-w-7xl p-6 h-full  flex flex-col justify-end">
-            <p className="text-indigo-100">IoT Inspector</p>
-            <h1 className="text-3xl font-black text-white mb-0">
-              Who are your devices talking to?
-            </h1>
+          <div className="relative max-w-7xl p-3 sm:p-6 h-full  flex flex-col justify-end">
+            <p className="text-light text-sm">IoT Inspector</p>
+            <h1 className="card-title">Who are your devices talking to?</h1>
           </div>
         </div>
       </Link>
       <ul className="tag-group">
-        <li className="tag">User Experience</li>
-        <li className="tag">Front-end development</li>
+        <TagUX />
+        <TagDev />
       </ul>
     </div>
   );

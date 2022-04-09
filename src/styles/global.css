@@ -65,4 +65,7 @@
   .tag {
     @apply rounded-md px-3 py-1 bg-dark/10 text-sm md:text-xs;
   }
+  .card-title {
+    @apply text-xl md:text-3xl font-black text-white mb-0;
+  }
 }

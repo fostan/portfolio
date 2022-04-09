@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
+import TagDev from "../global/TagDev";
 
 const KettleCard = () => {
   return (
@@ -18,16 +19,14 @@ const KettleCard = () => {
               aria-hidden="true"
             />
           </div>
-          <div className="relative max-w-7xl p-6 h-full  flex flex-col justify-end">
-            <p className="text-indigo-100">Kettle</p>
-            <h1 className="text-3xl font-black text-white mb-0">
-              A.I. Disaster Prevention
-            </h1>
+          <div className="relative max-w-7xl p-3 sm:p-6 h-full  flex flex-col justify-end">
+            <p className="text-light text-sm">Kettle</p>
+            <h1 className="card-title">A.I. Disaster Prevention</h1>
           </div>
         </div>
       </Link>
       <ul className="tag-group">
-        <li className="tag">Front-end development</li>
+        <TagDev />
       </ul>
     </div>
   );

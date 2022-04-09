@@ -14,7 +14,7 @@ const ProjectTabs = () => {
     <div className="container mx-auto max-w-3xl">
       <Tab.Group>
         <div className="w-full md:w-10/12 mx-auto mb-12">
-          <Tab.List className="project-filters">
+          <Tab.List className="project-filters px-6 sm:px-0">
             <Tab
               className={({ selected }) =>
                 selected
@@ -35,7 +35,7 @@ const ProjectTabs = () => {
             >
               <MdTouchApp className="sm:hidden" />
               <span className="block sm:hidden">U/I</span>
-              <span className="hidden sm:block">U/I Design</span>
+              <span className="hidden sm:block">U/I design</span>
             </Tab>
             <Tab
               className={({ selected }) =>
@@ -62,7 +62,7 @@ const ProjectTabs = () => {
           </Tab.List>
         </div>
         <Tab.Panels>
-          <div className="pt-[25px]">
+          <div className="md:pt-[25px]">
             <Tab.Panel>
               <TabAllWork />
             </Tab.Panel>

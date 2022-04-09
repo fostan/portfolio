@@ -1,12 +1,13 @@
 import * as React from "react";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
 import DefaultLayout from "../components/layouts/DefaultLayout";
-import ProjectIntro from "../components/portfolio/ProjectIntro";
+// import ProjectIntro from "../components/portfolio/ProjectIntro";
 import WebMockupScroll from "../components/portfolio/WebMockupScroll";
 import BeforeAfter from "../components/portfolio/BeforeAfter";
 import VideoFeature from "../components/portfolio/VideoFeature";
 import StickyGallery from "../components/portfolio/StickyGallery";
 import RelatedProjects from "../components/portfolio/RelatedProjects";
+import ProjectIntro from "../components/pages/carbonvert/ProjectIntro";
 
 const PageContent = {
   darkColor: "#2F2A2B",
@@ -62,7 +63,9 @@ const CarbonvertPage = () => {
       <div className="hidden before:bg-[#F5F5F5] bg-[#F5F5F5] border-[#F5F5F5]"></div>
       <div className="hidden before:bg-[#99EEF3] bg-[#99EEF3] border-[#99EEF3]"></div>
 
-      <ProjectIntro content={PageContent} />
+      <ProjectIntro />
+
+      {/* <ProjectIntro content={PageContent} /> */}
       <WebMockupScroll content={PageContent} />
       <BeforeAfter images={PageContent} />
       <section className="py-20 bg-[#F5F5F5]">
