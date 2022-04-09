@@ -3,12 +3,14 @@ import { GatsbySeo } from "gatsby-plugin-next-seo";
 import DefaultLayout from "../components/layouts/DefaultLayout";
 // import ProjectIntro from "../components/portfolio/ProjectIntro";
 import WebMockupScroll from "../components/portfolio/WebMockupScroll";
-import BeforeAfter from "../components/portfolio/BeforeAfter";
 import VideoFeature from "../components/portfolio/VideoFeature";
 import StickyGallery from "../components/portfolio/StickyGallery";
 import RelatedProjects from "../components/portfolio/RelatedProjects";
 import ProjectIntro from "../components/pages/carbonvert/ProjectIntro";
 import WebScroll from "../components/pages/carbonvert/WebScroll";
+import BeforeAfter from "../components/pages/carbonvert/BeforeAfter";
+import IconContainer from "../components/pages/carbonvert/IconContainer";
+import ImageScroll from "../components/pages/carbonvert/ImageScroll";
 
 const PageContent = {
   darkColor: "#2F2A2B",
@@ -59,86 +61,12 @@ const CarbonvertPage = () => {
         title="Fostan • A down to Earth solution"
         description="This Case Study: This web design project featured front-end development and a fresh design system revamp for Carbonvert."
       />
-      <div className="h-full w-full before:bg-[#F5F4EE] bg-[#F5F4EE]"> </div>
-      <div className="h-full w-full before:bg-[#2F2A2B] bg-[#2F2A2B]"> </div>
-      <div className="hidden before:bg-[#F5F5F5] bg-[#F5F5F5] border-[#F5F5F5]"></div>
-      <div className="hidden before:bg-[#99EEF3] bg-[#99EEF3] border-[#99EEF3]"></div>
-
       <ProjectIntro />
       <WebScroll />
+      <BeforeAfter />
+      <IconContainer />
+      <ImageScroll />
 
-      <BeforeAfter images={PageContent} />
-      <section className="py-20 bg-[#F5F5F5]">
-        <div className="container max-w-8xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mx-auto">
-          <img
-            src="/images/carbonvert/icon-1.svg"
-            alt="Development & construction"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/carbonvert/icon-2.svg"
-            alt="Profit financing"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/carbonvert/icon-3.svg"
-            alt="CO2 storage & sequestration"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/carbonvert/icon-4.svg"
-            alt="Carbon capture"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/carbonvert/icon-5.svg"
-            alt="Identification & design"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/carbonvert/icon-6.svg"
-            alt="Carbon Transport"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-        </div>
-      </section>
-      <section className="py-20">
-        <div className="container max-w-7xl mx-auto">
-          <img
-            src="/images/carbonvert/carbonvert-screens-1.webp"
-            className="mx-auto"
-            alt="A collage of screenshots of the carbonvert website"
-            width="1100"
-            height="932"
-          />
-          <img
-            src="/images/carbonvert/carbonvert-screens-2.webp"
-            className="mx-auto my-16 lg:my-28"
-            alt="An illustration of a CO2 well and rock layers"
-            width="698"
-            height="581"
-          />
-          <img
-            src="/images/carbonvert/carbonvert-screens-3.webp"
-            className="mx-auto"
-            alt="A collage of screenshots of the carbonvert website"
-            width="1006"
-            height="1046"
-          />
-        </div>
-      </section>
       <RelatedProjects projects={FeaturedProjects} />
     </DefaultLayout>
   );

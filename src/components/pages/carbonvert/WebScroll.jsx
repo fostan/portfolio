@@ -1,8 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import { parse } from "postcss";
-import parse from "html-react-parser";
 
 gsap.registerPlugin(ScrollTrigger);
 
