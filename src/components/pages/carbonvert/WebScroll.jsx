@@ -1,6 +1,8 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { StaticImage } from "gatsby-plugin-image";
+import { MdSwipe } from "react-icons/md";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -83,6 +85,34 @@ const WebScroll = () => {
                 decks, presentations, and beyond.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="md:hidden px-4">
+        <div className="flex flex-col justify-center md:h-screen gap-8">
+          <h2>
+            <span className="h3">Web Design Refresh</span>
+            <br />
+            <span className="h2">A carbon first</span>
+          </h2>
+          <p className="w-10/12">
+            The website was a perfect launching point to not only explore an
+            expansion of the brand, but also revisit aspects that weren't
+            delivering Carbonvert’s messaging. With a refreshed color pallet,
+            type styles, and a custom set of icons and illustrations, the brand
+            was ready to be applied to investment decks, presentations, and
+            beyond.
+          </p>
+          <StaticImage
+            src="../../../images/carbonvert/web-screen.png"
+            className="w-full"
+            alt="A screenshot of the website after it has been redesigned"
+          />
+          <div className="mx-auto flex flex-col items-center">
+            <MdSwipe className="rotate-90 opacity-80" />
+            <span className="text-sm text-center text-neutral-600">
+              Swipe to see more
+            </span>
           </div>
         </div>
       </div>

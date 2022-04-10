@@ -7,7 +7,11 @@ const ProjectIntro = () => {
       <section className="bg-gradient-to-tl from-[#151213] to-[#342F30]">
         <div className="max-w-6xl px-4 sm:px-8 grid grid-cols-1 md:grid-cols-2 gap-16 mx-auto">
           <div className="flex gap-4 flex-col justify-center text-light">
-            <h1 className="text-white">A down to Earth solution</h1>
+            <h1 className="text-white">
+              A down to
+              <br />
+              Earth solution
+            </h1>
             <a
               href="https://carbonvert.com/"
               className="text-sm text-clay"
@@ -30,8 +34,8 @@ const ProjectIntro = () => {
           </div>
           <div className="-mb-[6rem] md:-mb-[16rem]">
             <StaticImage
-              src="../../images/icon.png"
-              className="w-full h-full shadow-md"
+              src="../../../images/feature.jpg"
+              className="w:3/4 h:auto h-/4 md:w-full md:h-full shadow-md"
               alt=""
             />
           </div>
