@@ -61,7 +61,7 @@
     @apply justify-between w-full gap-2 flex sm:relative fixed z-50 bottom-0 left-0 h-20 md:h-auto bg-dark sm:bg-transparent;
   }
   .project-filter-pill {
-    @apply flex items-center justify-center flex-col rounded-full sm:border sm:hover:border-brown sm:border-clay pb-1 pt-0.5 px-5 tracking-wider transition text-sm text-brown duration-700 hover:bg-brown hover:text-light/80;
+    @apply flex items-center justify-center flex-col rounded-full sm:border sm:hover:border-brown sm:border-clay pb-1 pt-0.5 px-5 tracking-wider transition text-sm text-brown duration-700 hover:bg-brown hover:text-light/80 sm:h-fit;
   }
   .project-filter-pill-active {
     @apply bg-dark sm:border-dark text-light hover:bg-dark;

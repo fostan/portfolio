@@ -71,21 +71,21 @@ const TabDev = () => {
         scrub: 1,
       },
     });
-    gsap.to("#dggt", {
-      y: -25,
-      opacity: "1",
-      duration: 5,
-      scrollTrigger: {
-        trigger: "#dggt",
-        markers: false,
-        start: "top bottom",
-        end: "top 83%",
-        scrub: 1,
-      },
-    });
+    // gsap.to("#dggt", {
+    //   y: -25,
+    //   opacity: "1",
+    //   duration: 5,
+    //   scrollTrigger: {
+    //     trigger: "#dggt",
+    //     markers: false,
+    //     start: "top bottom",
+    //     end: "top 83%",
+    //     scrub: 1,
+    //   },
+    // });
   }, []);
   return (
-    <div className="grid md:gap-x-6 gap-y-4 grid-rows-11 grid-cols-1 md:grid-cols-2">
+    <div className="grid gap-x-3 md:gap-x-6 gap-y-4 grid-rows-11 grid-cols-2">
       <KettleCard />
       <CarbonvertCard />
       <SmellBetterCard />

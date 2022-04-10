@@ -13,7 +13,7 @@ const ProjectTabs = () => {
   return (
     <div className="container mx-auto max-w-3xl">
       <Tab.Group>
-        <div className="w-full md:w-10/12 mx-auto mb-12">
+        <div className="w-full md:w-10/12 mx-auto mb-4 lg:mb-12">
           <Tab.List className="project-filters px-6 sm:px-0">
             <Tab
               className={({ selected }) =>

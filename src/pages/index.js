@@ -28,7 +28,7 @@ const IndexPage = () => {
         }}
       />
       <div className="h-3 w-full bg-dark"></div>
-      <section className="pt-20  md:pt-40">
+      <section className="pt-20  md:pt-28 pb-12">
         <div className="container max-w-2xl mx-auto text-center">
           <div>
             <h1 className="text-hero mb-2">Fostan.</h1>
