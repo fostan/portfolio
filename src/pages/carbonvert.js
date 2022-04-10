@@ -18,7 +18,7 @@ const PageContent = {
   lightColor: "#F5F5F5",
   accentColor: "#99EEF3",
   accentColor2: "#99EEF3",
-  tagline: "A down to Earth solution",
+  tagline: "A down to Earth CO2 solution",
   client: {
     clientName: "Carbonvert",
     clientProject: "Carbonvert Website",
@@ -59,7 +59,7 @@ const CarbonvertPage = () => {
   return (
     <DefaultLayout>
       <GatsbySeo
-        title="Fostan • A down to Earth solution"
+        title="Fostan • A down to Earth CO2 solution"
         description="This Case Study: This web design project featured front-end development and a fresh design system revamp for Carbonvert."
       />
       <ProjectIntro />

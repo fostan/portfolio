@@ -39,7 +39,7 @@ const IndexPage = () => {
           <ul></ul>
         </div>
       </section>
-      <section className="pt-0 md:pt-auto">
+      <section className="py-0 md:pt-auto">
         <ProjectTabs />
       </section>
 

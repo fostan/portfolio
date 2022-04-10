@@ -6,11 +6,11 @@ import TagDev from "../global/TagDev";
 const KettleCard = () => {
   return (
     <div className="row-span-3 col-span-1 group opacity-0" id="kettle">
-      <Link to="/kettle" className="card h-[18rem] flex">
+      <Link to="/kettle" className="card h-[18rem] flex cursor-pointer">
         <div className="relative bg-black h-full w-full rounded-lg overflow-hidden group-hover:scale-[97%] ease-out duration-300 transition">
           <div className="absolute inset-0">
             <StaticImage
-              src="../../images/icon.png"
+              src="../../images/kettle/kettle-card.png"
               className="w-full h-full object-cover group-hover:scale-[120%] transition ease-out duration-500"
               alt=""
             />

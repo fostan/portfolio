@@ -73,7 +73,7 @@ const FeaturedProjects = [
     page: "/2020-us-election-emails/",
   },
   {
-    title: "A down to Earth solution",
+    title: "A down to Earth CO2 solution",
     client: "Carbonvert",
     tags: "Development • Design",
     image: "/images/carbonvert/carbonvert-card.webp",

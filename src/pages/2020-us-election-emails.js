@@ -70,7 +70,7 @@ const PageContent = {
 
 const FeaturedProjects = [
   {
-    title: "A down to Earth solution",
+    title: "A down to Earth CO2 solution",
     client: "Carbonvert",
     tags: "Development • Design",
     image: "/images/carbonvert/carbonvert-card.webp",
