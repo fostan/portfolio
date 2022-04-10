@@ -5,12 +5,13 @@ import DefaultLayout from "../components/layouts/DefaultLayout";
 import WebMockupScroll from "../components/portfolio/WebMockupScroll";
 import VideoFeature from "../components/portfolio/VideoFeature";
 import StickyGallery from "../components/portfolio/StickyGallery";
-import RelatedProjects from "../components/portfolio/RelatedProjects";
+
 import ProjectIntro from "../components/pages/carbonvert/ProjectIntro";
 import WebScroll from "../components/pages/carbonvert/WebScroll";
 import BeforeAfter from "../components/pages/carbonvert/BeforeAfter";
 import IconContainer from "../components/pages/carbonvert/IconContainer";
 import ImageScroll from "../components/pages/carbonvert/ImageScroll";
+import RelatedProjects from "../components/pages/carbonvert/RelatedProjects";
 
 const PageContent = {
   darkColor: "#2F2A2B",
@@ -66,8 +67,7 @@ const CarbonvertPage = () => {
       <BeforeAfter />
       <IconContainer />
       <ImageScroll />
-
-      <RelatedProjects projects={FeaturedProjects} />
+      <RelatedProjects />
     </DefaultLayout>
   );
 };
