@@ -20,7 +20,7 @@ const KettleCard = () => {
             />
           </div>
           <div className="relative max-w-7xl p-3 sm:p-6 h-full  flex flex-col justify-end">
-            <p className="text-light text-sm">Kettle</p>
+            <p className="text-light text-sm">Kettle Reinsurence</p>
             <h1 className="card-title">A.I. Disaster Prevention</h1>
           </div>
         </div>

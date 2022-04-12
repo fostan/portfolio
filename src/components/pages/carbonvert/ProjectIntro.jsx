@@ -1,5 +1,6 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
+import { RiExternalLinkFill } from "react-icons/ri";
 
 const ProjectIntro = () => {
   return (
@@ -7,18 +8,15 @@ const ProjectIntro = () => {
       <section className="bg-gradient-to-tl from-[#151213] to-[#342F30]">
         <div className="max-w-6xl px-4 sm:px-8 grid grid-cols-1 md:grid-cols-2 gap-16 mx-auto">
           <div className="flex gap-4 flex-col justify-center text-light">
-            <h1 className="text-white">
-              A down to
-              <br />
-              Earth solution
-            </h1>
+            <h1 className="text-white">A down to Earth CO2 solution</h1>
             <a
               href="https://carbonvert.com/"
-              className="text-sm text-clay"
+              className="text-sm text-clay flex gap-1 items-center hover:opacity-50 transition w-fit"
               target="_blank"
               rel="noreferrer"
             >
               Carbonvert
+              <RiExternalLinkFill />
             </a>
             <hr />
             <dl className="grid grid-cols-2">

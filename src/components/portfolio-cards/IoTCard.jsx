@@ -7,7 +7,7 @@ import TagUX from "../global/TagUX";
 const IoTCard = () => {
   return (
     <div className="row-span-3 col-span-1 group bg-opacity-0" id="iot">
-      <Link to="/iot" className="card h-[18rem] flex cursor-pointer">
+      <Link to="/iot-inspector" className="card h-[18rem] flex cursor-pointer">
         <div className="relative bg-black h-full w-full rounded-lg overflow-hidden group-hover:scale-[97%] ease-out duration-300 transition">
           <div className="absolute inset-0">
             <StaticImage
@@ -21,7 +21,7 @@ const IoTCard = () => {
             />
           </div>
           <div className="relative max-w-7xl p-3 sm:p-6 h-full  flex flex-col justify-end">
-            <p className="text-light text-sm">IoT Inspector</p>
+            <p className="text-light text-sm">Consumer Reports IoT Inspector</p>
             <h1 className="card-title">Who are your devices talking to?</h1>
           </div>
         </div>

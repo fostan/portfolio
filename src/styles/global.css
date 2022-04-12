@@ -25,7 +25,7 @@
     @apply uppercase tracking-widest text-sm opacity-75;
   }
   dd {
-    @apply text-sm text-clay;
+    @apply text-sm;
   }
   p {
     @apply text-dark mb-3 opacity-80 text-2xl;

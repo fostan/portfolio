@@ -1,12 +1,18 @@
 import * as React from "react";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
 import DefaultLayout from "../components/layouts/DefaultLayout";
-import ProjectIntro from "../components/portfolio/ProjectIntro";
-import WebMockupScroll from "../components/portfolio/WebMockupScroll";
-import BeforeAfter from "../components/portfolio/BeforeAfter";
-import VideoFeature from "../components/portfolio/VideoFeature";
-import StickyGallery from "../components/portfolio/StickyGallery";
-import RelatedProjects from "../components/portfolio/RelatedProjects";
+// import ProjectIntro from "../components/portfolio/ProjectIntro";
+// import WebMockupScroll from "../components/portfolio/WebMockupScroll";
+// import BeforeAfter from "../components/portfolio/BeforeAfter";
+// import RelatedProjects from "../components/portfolio/RelatedProjects";
+
+import ProjectIntro from "../components/pages/smellbetter/ProjectIntro";
+import WebScroll from "../components/pages/smellbetter/WebScroll";
+import BeforeAfter from "../components/pages/smellbetter/BeforeAfter";
+import RelatedProjects from "../components/pages/smellbetter/RelatedProjects";
+import IconRowOne from "../components/pages/smellbetter/IconRowOne";
+import IconRowTwo from "../components/pages/smellbetter/IconRowTwo";
+import ImageScroll from "../components/pages/smellbetter/ImageScroll";
 
 const PageContent = {
   darkColor: "#16262F",
@@ -57,60 +63,11 @@ const SmellbetterPage = () => {
         title="Fostan • Heaven Scent"
         description="This Case Study: The SmellBetter Hawai'i marketing site refresh featured a new UI design & front-end development."
       />
-      <div className="h-full w-full before:bg-[#EFF3F5] bg-[#EFF3F5]"> </div>
-      <div className="h-full w-full bg-[#16262F]"> </div>
-      <div className="hidden before:bg-[#3D99D0] bg-[#3D99D0] border-[#3D99D0]"></div>
-      <div className="hidden before:bg-[#F37F55] bg-[#F37F55] border-[#F37F55]"></div>
-      <ProjectIntro content={PageContent} />
-      <WebMockupScroll content={PageContent} />
-      <section className="py-20 bg-[#3D99D0]">
-        <div className="container max-w-8xl grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mx-auto">
-          <img
-            src="/images/smellbetter/icon-1.svg"
-            alt="Clean Cotton"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/smellbetter/icon-2.svg"
-            alt="Vanilla"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/smellbetter/icon-3.svg"
-            alt="Golden Hour"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/smellbetter/icon-4.svg"
-            alt="Hibiscus"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/smellbetter/icon-5.svg"
-            alt="Asian Garden"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/smellbetter/icon-6.svg"
-            alt="Caramel"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-        </div>
-      </section>
-      <BeforeAfter images={PageContent} />{" "}
-      <section className="py-20">
+      <ProjectIntro />
+      <WebScroll />
+      <IconRowOne />
+      <BeforeAfter />
+      {/* <section className="py-20">
         <div className="container max-w-7xl mx-auto">
           <img
             src="/images/smellbetter/smellbetter-screens.webp"
@@ -120,53 +77,9 @@ const SmellbetterPage = () => {
             height="932"
           />
         </div>
-      </section>
-      <section className="py-20 bg-[#F37F55]">
-        <div className="container max-w-8xl grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-6 mx-auto">
-          <img
-            src="/images/smellbetter/icon-7.svg"
-            alt="Huckleberry"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/smellbetter/icon-8.svg"
-            alt="Hawaiian Sunset"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/smellbetter/icon-9.svg"
-            alt="Golden Hour"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/smellbetter/icon-10.svg"
-            alt="Reach for the stars"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/smellbetter/icon-11.svg"
-            alt="White Tea and Fig"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-          <img
-            src="/images/smellbetter/icon-12.svg"
-            alt="Green Tea Lemongrass"
-            className="justify-self-center"
-            width="100px"
-            height="100px"
-          />
-        </div>
-      </section>
+      </section> */}
+      <ImageScroll />
+      <IconRowTwo />
       <RelatedProjects projects={FeaturedProjects} />
     </DefaultLayout>
   );

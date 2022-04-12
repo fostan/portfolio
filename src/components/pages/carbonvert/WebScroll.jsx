@@ -7,14 +7,14 @@ import { MdSwipe } from "react-icons/md";
 gsap.registerPlugin(ScrollTrigger);
 
 const WebScroll = () => {
-  const frames = 239;
+  const frames = 199;
 
   const canvasRef = useRef(null);
 
   useEffect(() => {
     const el = canvasRef.current;
     const context = el.getContext("2d");
-    const framesDir = "/images/carbonvert/website";
+    const framesDir = "/images/carbonvert/web";
 
     canvasRef.current.width = 800;
     const heightRatio = 0.5625;
@@ -22,7 +22,7 @@ const WebScroll = () => {
 
     const frameCount = frames;
     const currentFrame = (index) =>
-      `${framesDir}/${(index + 1).toString()}.webp`;
+      `${framesDir}/${(index + 1).toString()}.jpg`;
 
     const images = [];
     const screen = {
@@ -72,7 +72,9 @@ const WebScroll = () => {
           <div className="md:sticky top-0 md:h-screen min-h-fit lg:w-[350px] mx-auto">
             <div className="flex flex-col justify-center md:h-screen">
               <h2 className="mb-4">
-                <span className="h3">Web Design Refresh</span>
+                <span className="uppercase text-sm opacity-50 font-sans tracking-widest font-bold">
+                  Web Design Refresh
+                </span>
                 <br />
                 <span className="h2">A carbon first</span>
               </h2>
@@ -111,7 +113,7 @@ const WebScroll = () => {
           <div className="mx-auto flex flex-col items-center">
             <MdSwipe className="rotate-90 opacity-80" />
             <span className="text-sm text-center text-neutral-600">
-              Swipe to see more
+              Scroll to see more
             </span>
           </div>
         </div>

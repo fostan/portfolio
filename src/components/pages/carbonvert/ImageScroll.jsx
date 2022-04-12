@@ -27,7 +27,7 @@ const ImageScroll = () => {
       scrollTrigger: {
         trigger: "#imageTwo",
         markers: false,
-        start: "top 90%%",
+        start: "top 90%",
         end: "bottom 10%",
         scrub: 1,
       },
@@ -51,7 +51,7 @@ const ImageScroll = () => {
       scrollTrigger: {
         trigger: "#imageFour",
         markers: false,
-        start: "top 90%%",
+        start: "top 90%",
         end: "bottom 10%",
         scrub: 1,
       },
@@ -75,7 +75,7 @@ const ImageScroll = () => {
       scrollTrigger: {
         trigger: "#imageSix",
         markers: false,
-        start: "top 90%%",
+        start: "top 9%%",
         end: "bottom 10%",
         scrub: 1,
       },

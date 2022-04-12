@@ -1,11 +1,17 @@
 import * as React from "react";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
 import DefaultLayout from "../components/layouts/DefaultLayout";
-import ProjectIntro from "../components/portfolio/ProjectIntro";
-import UserTabs from "../components/portfolio/UserTabs";
-import BeforeAfter from "../components/portfolio/BeforeAfter";
-import StickyGallery from "../components/portfolio/StickyGallery";
-import RelatedProjects from "../components/portfolio/RelatedProjects";
+// import ProjectIntro from "../components/portfolio/ProjectIntro";
+// import UserTabs from "../components/portfolio/UserTabs";
+// import BeforeAfter from "../components/portfolio/BeforeAfter";
+// import StickyGallery from "../components/portfolio/StickyGallery";
+// import RelatedProjects from "../components/portfolio/RelatedProjects";
+
+import ProjectIntro from "../components/pages/iot/ProjectIntro";
+import UserTabs from "../components/pages/iot/UserTabs";
+import BeforeAfter from "../components/pages/iot/BeforeAfter";
+import StickyImages from "../components/pages/iot/StickyImages";
+import RelatedProjects from "../components/pages/iot/RelatedProjects";
 
 const PageContent = {
   darkColor: "#0D0D29",
@@ -88,14 +94,11 @@ const IotInspectorPage = () => {
         title="Fostan • Who are your devices talking to?"
         description="This Case Study: Front-end development and UX overhaul, complete with new features for Consumer Reports' 'internet of things' inspector."
       />
-      <div className="h-full w-full before:bg-[#0D0D29] bg-[#0D0D29]"> </div>
-      <div className="hidden before:bg-[#4B4CDC] bg-[#4B4CDC] border-[#4B4CDC]"></div>
-      <div className="hidden before:bg-[#F3F4F6] bg-[#F3F4F6]"></div>
-      <ProjectIntro content={PageContent} />
-      <UserTabs users={PageContent} />
-      <BeforeAfter images={PageContent} />
-      <StickyGallery images={PageContent} />
-      <RelatedProjects projects={FeaturedProjects} />
+      <ProjectIntro />
+      <UserTabs />
+      <BeforeAfter />
+      <StickyImages />
+      <RelatedProjects />
     </DefaultLayout>
   );
 };
