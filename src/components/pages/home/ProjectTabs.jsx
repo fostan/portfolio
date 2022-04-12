@@ -4,10 +4,10 @@ import TabAllWork from "./TabAllWork";
 import TabUI from "./TabUI";
 import TabUX from "./TabUX";
 import TabDev from "./TabDev";
-import { BsFillCollectionFill } from "react-icons/Bs";
-import { FaFileCode } from "react-icons/Fa";
-import { MdTouchApp } from "react-icons/Md";
-import { TiFlowSwitch } from "react-icons/Ti";
+import { BsFillCollectionFill } from "react-icons/bs";
+import { FaFileCode } from "react-icons/fa";
+import { MdTouchApp } from "react-icons/md";
+import { TiFlowSwitch } from "react-icons/ti";
 
 const ProjectTabs = () => {
   return (
