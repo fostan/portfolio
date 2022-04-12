@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { RiArrowGoBackFill } from "react-icons/Ri";
+import { RiArrowGoBackFill } from "react-icons/ri";
 
 const Navigation = () => {
   return (
