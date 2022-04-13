@@ -5,12 +5,12 @@ import { RiExternalLinkFill } from "react-icons/ri";
 const ProjectIntro = () => {
   return (
     <>
-      <section className="bg-gradient-to-tl from-[#03030F] to-[#0D0D29]">
+      <section className="bg-gradient-to-tl from-[#03030F] to-[#090926]">
         <div className="max-w-6xl px-4 sm:px-8 grid grid-cols-1 md:grid-cols-2 gap-16 mx-auto">
           <div className="flex gap-4 flex-col justify-center text-light">
             <h1 className="text-white">Who are your devices talking to?</h1>
             <a
-              className="text-sm text-gray-500/80 flex gap-1 items-center  transition w-fit"
+              className="text-sm text-gray-300/40 flex gap-1 items-center  transition w-fit"
               target="_blank"
               rel="noreferrer"
             >
@@ -32,16 +32,21 @@ const ProjectIntro = () => {
           </div>
           <div className="-mb-[6rem] md:-mb-[16rem]">
             <StaticImage
-              src="../../../images/feature.jpg"
+              src="../../../images/iot/iot-feature.png"
               className="w:3/4 h:auto h-/4 md:w-full md:h-full shadow-md"
               alt=""
+              role="presentation"
             />
           </div>
         </div>
       </section>
       <section>
         <div className="max-w-3xl mx-auto px-4 sm:px-8">
-          <h2>Consumer Reports 'Internet of Things' Inspector</h2>
+          <h2>
+            Consumer Reports'
+            <br />
+            'Internet of Things' Inspector
+          </h2>
           <p>
             In a world where everything is connected to the internet, it’s
             becoming more and more difficult to control your own data. The

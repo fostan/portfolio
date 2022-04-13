@@ -33,9 +33,10 @@ const ProjectIntro = () => {
           </div>
           <div className="-mb-[6rem] md:-mb-[16rem]">
             <StaticImage
-              src="../../../images/feature.jpg"
+              src="../../../images/kettle/feature.png"
               className="w:3/4 h:auto h-/4 md:w-full md:h-full shadow-md"
               alt=""
+              role="presentation"
             />
           </div>
         </div>

@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
+import { StaticImage } from "gatsby-plugin-image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -70,34 +71,34 @@ const StickyImages = () => {
           <div className="lg:col-span-7 gap-8 md:gap-16 lg:gap-24 grid">
             <div className=" translate-y-16 opacity-0" id="imageOne">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-6.png"
+                <StaticImage
+                  src="../../../images/kettle/image-1.png"
                   className="mx-auto shadow-md"
-                  alt="A collage of screenshots of the carbonvert website"
-                  width="815"
-                  height="486"
+                  alt="A screenshot of the Kettle website"
+                  width="1206"
+                  height="638"
                 />
               </Zoom>
             </div>
-            <div className=" translate-y-16 opacity-0" id="imageTwo">
+            <div className="translate-y-16 opacity-0" id="imageTwo">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-6.png"
+                <StaticImage
+                  src="../../../images/kettle/image-2.png"
                   className="mx-auto shadow-md"
-                  alt="A collage of screenshots of the carbonvert website"
-                  width="815"
-                  height="486"
+                  alt="A screenshot of the Kettle website"
+                  width="1206"
+                  height="616"
                 />
               </Zoom>
             </div>
-            <div className=" translate-y-16 opacity-0" id="imageThree">
+            <div className="translate-y-16 opacity-0" id="imageThree">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-6.png"
+                <StaticImage
+                  src="../../../images/kettle/image-3.png"
                   className="mx-auto shadow-md"
-                  alt="A collage of screenshots of the carbonvert website"
-                  width="815"
-                  height="486"
+                  alt="A screenshot of the Kettle website"
+                  width="1206"
+                  height="612"
                 />
               </Zoom>
             </div>

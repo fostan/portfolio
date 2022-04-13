@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Zoom from "react-medium-image-zoom";
+import { StaticImage } from "gatsby-plugin-image";
 import "react-medium-image-zoom/dist/styles.css";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -70,34 +71,34 @@ const StickyImages = () => {
           <div className="lg:col-span-7 gap-8 md:gap-16 lg:gap-24 grid">
             <div className=" translate-y-16 opacity-0" id="imageOne">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-6.png"
+                <StaticImage
+                  src="../../../images/electionemails/screen-1.png"
                   className="mx-auto shadow-md"
-                  alt="A collage of screenshots of the carbonvert website"
-                  width="815"
-                  height="486"
+                  alt="2020 Election Emails Results"
+                  width="1200"
+                  height="1050"
                 />
               </Zoom>
             </div>
             <div className=" translate-y-16 opacity-0" id="imageTwo">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-6.png"
+                <StaticImage
+                  src="../../../images/electionemails/screen-2.png"
                   className="mx-auto shadow-md"
-                  alt="A collage of screenshots of the carbonvert website"
-                  width="815"
-                  height="486"
+                  alt="2020 Election Emails detailed email view"
+                  width="1200"
+                  height="834"
                 />
               </Zoom>
             </div>
             <div className=" translate-y-16 opacity-0" id="imageThree">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-6.png"
+                <StaticImage
+                  src="../../../images/electionemails/screen-3.png"
                   className="mx-auto shadow-md"
-                  alt="A collage of screenshots of the carbonvert website"
-                  width="815"
-                  height="486"
+                  alt="2020 Election Emails Senders Page"
+                  width="1200"
+                  height="830"
                 />
               </Zoom>
             </div>

@@ -10,7 +10,7 @@ const ProjectIntro = () => {
           <div className="flex gap-4 flex-col justify-center text-light">
             <h1 className="text-white">A new look at the 2020 election</h1>
             <a
-              className="text-sm text-gray-500/80 flex gap-1 items-center  transition w-fit"
+              className="text-sm text-gray-300/40 flex gap-1 items-center  transition w-fit"
               target="_blank"
               rel="noreferrer"
             >
@@ -33,9 +33,10 @@ const ProjectIntro = () => {
           </div>
           <div className="-mb-[6rem] md:-mb-[16rem]">
             <StaticImage
-              src="../../../images/feature.jpg"
+              src="../../../images/electionemails/feature.png"
               className="w:3/4 h:auto h-/4 md:w-full md:h-full shadow-md"
               alt=""
+              role="presentation"
             />
           </div>
         </div>

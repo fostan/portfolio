@@ -13,9 +13,9 @@ const BeforeAfter = () => {
             Before
           </span>
           <StaticImage
-            src="../../../images/carbonvert/carbonvert-before.png"
+            src="../../../images/electionemails/electionemails-before.png"
             className="w-full"
-            alt="A screenshot of the website before it has been redesigned"
+            alt="A screenshot of the 2020 Election Email website before it has been redesigned"
           />
         </div>
 
@@ -24,9 +24,9 @@ const BeforeAfter = () => {
             After
           </span>
           <StaticImage
-            src="../../../images/carbonvert/carbonvert-after.png"
+            src="../../../images/electionemails/electionemails-after.png"
             className="w-full"
-            alt="A screenshot of the website after it has been redesigned"
+            alt="A screenshot of the 2020 Election Email website after it has been redesigned"
           />
         </div>
       </div>

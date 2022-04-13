@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
+import { StaticImage } from "gatsby-plugin-image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -84,81 +85,51 @@ const StickyImages = () => {
           <div className="lg:col-span-7 gap-8 md:gap-16 lg:gap-24 grid">
             <div className=" translate-y-16 opacity-0" id="imageOne">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-6.png"
-                  className="mx-auto shadow-md"
-                  alt="A collage of screenshots of the carbonvert website"
-                  width="815"
-                  height="486"
+                <StaticImage
+                  src="../../../images/iot/iot-screen-1.png"
+                  className="mx-auto shadow-md w-full"
+                  alt="Screen shots from the IoT Inspector"
+                  width="1198"
+                  height="666"
                 />
               </Zoom>
             </div>
             <div className=" translate-y-16 opacity-0" id="imageTwo">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-6.png"
+                <StaticImage
+                  src="../../../images/iot/iot-screen-2.png"
                   className="mx-auto shadow-md"
-                  alt="A collage of screenshots of the carbonvert website"
-                  width="815"
-                  height="486"
+                  alt="Screen shots from the IoT Inspector"
+                  width="1198"
+                  height="666"
                 />
               </Zoom>
             </div>
             <div className=" translate-y-16 opacity-0" id="imageThree">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-6.png"
+                <StaticImage
+                  src="../../../images/iot/iot-screen-3.png"
                   className="mx-auto shadow-md"
-                  alt="A collage of screenshots of the carbonvert website"
-                  width="815"
-                  height="486"
+                  alt="Screen shots from the IoT Inspector"
+                  width="1198"
+                  height="670"
                 />
               </Zoom>
             </div>
             <div className=" translate-y-16 opacity-0" id="imageFour">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-6.png"
+                <StaticImage
+                  src="../../../images/iot/iot-screen-4.png"
                   className="mx-auto shadow-md"
-                  alt="A collage of screenshots of the carbonvert website"
-                  width="815"
-                  height="486"
+                  alt="Screen shots from the IoT Inspector"
+                  width="1198"
+                  height="668"
                 />
               </Zoom>
             </div>
           </div>
         </div>
       </section>
-      {/* <section className="py-20">
-      <div className="container mx-auto max-w-9xl grid lg:grid-cols-12 gap-16 relative">
-        <div className="lg:col-span-5 lg:order-last">
-          <div className="sticky top-8">
-            <h2 className="mb-4">
-              <span className="h3">Searching the corpus</span>
-              <br />
-              <span className="h2">Leave no email unturned</span>
-            </h2>
-            <p>
-              With nearly 1 million emails in the database we created a search
-              experience to narrow down specific topics using conditional
-              statements while preserving a simple and approachable search route
-              for casual users. Using the corpus ourselves, we were also able to
-              show trends based on political parties and individual senders at a
-              glance.
-            </p>
-          </div>
-        </div>
-        <div className="lg:col-span-7">
-          <img
-            src="images/election-emails/election-email-screens.webp"
-            className="w-full h-auto"
-            width="400px"
-            height="1000px"
-            alt="Additional website and application screens demonstrating features"
-          />
-        </div>
-      </div>
-    </section> */}
     </>
   );
 };

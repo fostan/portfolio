@@ -57,7 +57,7 @@ const WebScroll = () => {
   }, []);
 
   return (
-    <section className="py-20 md:py-0 bg-gradient-to-tl from-[#E0B535] to-[#F9D055]">
+    <section className="py-20 md:py-0 bg-gradient-to-tl from-[#F9D055] to-[#FDD53F]">
       <div className="mx-auto max-w-9xl hidden md:grid md:grid-cols-7 gap-8 relative">
         <div className="col-span-4 order-last">
           <div id="canvasWrapper" className="relative col-span-2 ">

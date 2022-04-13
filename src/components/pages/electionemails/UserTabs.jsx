@@ -33,7 +33,7 @@ const UserTabs = () => {
           <div className="md:hidden">
             <span className="text-xs text-neutral-500 uppercase font-black tracking-widest flex items-center gap-2 group">
               <MdOutlineSwipe className="h-4 w-4 group-hover:-rotate-[15deg] duration-300 transition" />
-              Swipe to view users
+              Scroll to see all users
             </span>
           </div>
           <Tab.Group>

@@ -40,14 +40,14 @@ const UserTabs = () => {
           </h2>
         </div>
         <div className="z-20">
-          {/* <div className="2xl:hidden"> */}
-          <span className="text-xs text-neutral-500 uppercase font-black tracking-widest flex items-center gap-2 group">
-            <MdOutlineSwipe className="h-4 w-4 group-hover:-rotate-[15deg] duration-300 transition" />
-            Swipe to view users
-          </span>
-          {/* </div> */}
+          <div className="lg:hidden">
+            <span className="text-xs text-neutral-500 uppercase font-black tracking-widest flex items-center gap-2 group">
+              <MdOutlineSwipe className="h-4 w-4 group-hover:-rotate-[15deg] duration-300 transition" />
+              Scroll to see all users
+            </span>
+          </div>
           <Tab.Group>
-            <Tab.List className="flex mt-1 mb-5  max-w-3xl overflow-x-scroll">
+            <Tab.List className="flex mt-1 mb-5  max-w-4xl overflow-x-scroll">
               {userStories.map((user) => (
                 <Tab as={Fragment} key={user.user}>
                   {({ selected }) => (
@@ -64,7 +64,7 @@ const UserTabs = () => {
                 </Tab>
               ))}
             </Tab.List>
-            <Tab.Panels className="rounded-sm bg-[#4B4CDC] w-full text-[#FFFFFF] max-w-3xl min-h-[300px] items-center flex shadow-lg">
+            <Tab.Panels className="rounded-sm bg-[#4B4CDC] w-full text-[#FFFFFF] max-w-4xl min-h-[300px] items-center flex shadow-lg">
               {userStories.map((user, i) => (
                 <Tab.Panel key={user.story} className="p-6 mx-auto">
                   <h3 className="h3 ">{user.user}</h3>
