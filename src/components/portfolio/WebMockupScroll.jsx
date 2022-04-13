@@ -73,7 +73,7 @@ const WebMockupScroll = ({ content }) => {
           <div className="md:sticky top-0 md:h-screen min-h-fit">
             <div className="flex flex-col justify-center md:h-screen">
               <h2 className="mb-4">
-                <span className="h3">{webSubtitle}</span>
+                <span className="h3 font-sans">{webSubtitle}</span>
                 <br />
                 <span className="h2">{webTitle}</span>
               </h2>

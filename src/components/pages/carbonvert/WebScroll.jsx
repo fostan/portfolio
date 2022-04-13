@@ -22,7 +22,7 @@ const WebScroll = () => {
 
     const frameCount = frames;
     const currentFrame = (index) =>
-      `${framesDir}/${(index + 1).toString()}.jpg`;
+      `${framesDir}/${(index + 1).toString()}.webp`;
 
     const images = [];
     const screen = {
@@ -76,7 +76,9 @@ const WebScroll = () => {
                   Web Design Refresh
                 </span>
                 <br />
-                <span className="h2">A carbon first</span>
+                <span className="h2">
+                  A carbon <span className="line-through	">copy</span> first
+                </span>
               </h2>
               <p>
                 The website was a perfect launching point to not only explore an
@@ -93,7 +95,7 @@ const WebScroll = () => {
       <div className="md:hidden px-4">
         <div className="flex flex-col justify-center md:h-screen gap-8">
           <h2>
-            <span className="h3">Web Design Refresh</span>
+            <span className="h3 font-sans">Web Design Refresh</span>
             <br />
             <span className="h2">A carbon first</span>
           </h2>

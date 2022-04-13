@@ -23,7 +23,9 @@ const ElectionEmailPage = () => {
         <div className="container mx-auto max-w-6xl gap-8 lg:gap-16 grid lg:grid-cols-3 ">
           <div className="flex flex-col justify-center text-gray-200">
             <h2 className="mb-4 ">
-              <span className="h3 text-white">Manipulative Tactics</span>
+              <span className="h3 font-sans text-white">
+                Manipulative Tactics
+              </span>
               <br />
               <span className="h2 !text-white">A vote for education</span>
             </h2>
@@ -40,7 +42,7 @@ const ElectionEmailPage = () => {
           <div className="flex justify-center lg:col-span-2">
             <video width="100%" autoPlay loop muted playsInline height="auto">
               <source
-                src="/images/election-emails/election-emails-scroll.webm"
+                src="/images/election-emails/2020-feature.mp4"
                 type="video/webm"
               ></source>
             </video>

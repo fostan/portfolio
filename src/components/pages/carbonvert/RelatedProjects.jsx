@@ -4,7 +4,7 @@ import { HiArrowSmRight } from "react-icons/hi";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SmellBetterCard from "../../portfolio-cards/SmellBetterCard";
-import ElectionEmailCard from "../../portfolio-cards/ElectionEmailCard";
+import KettleCard from "../../portfolio-cards/KettleCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -22,12 +22,12 @@ const RelatedProjects = () => {
         scrub: 1,
       },
     });
-    gsap.to("#electionEmails", {
+    gsap.to("#kettle", {
       y: -25,
       opacity: "1",
       duration: 5,
       scrollTrigger: {
-        trigger: "#electionEmails",
+        trigger: "#kettle",
         markers: false,
         start: "top bottom",
         end: "top 83%",
@@ -52,8 +52,8 @@ const RelatedProjects = () => {
             <HiArrowSmRight className="group-hover:translate-x-2 transition opacity-50 group-hover:opacity-100" />
           </Link>
         </div>
+        <KettleCard />
         <SmellBetterCard />
-        <ElectionEmailCard />
       </div>
     </section>
   );

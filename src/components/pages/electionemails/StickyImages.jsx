@@ -54,7 +54,7 @@ const StickyImages = () => {
           <div className="lg:col-span-5 lg:order-last">
             <div className="sticky top-8">
               <h2 className="mb-4">
-                <span className="h3">Searching the corpus</span>
+                <span className="h3 font-sans">Searching the corpus</span>
                 <br />
                 <span className="h2">Leave no email unturned</span>
               </h2>

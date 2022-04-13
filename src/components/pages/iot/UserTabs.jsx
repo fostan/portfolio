@@ -69,7 +69,7 @@ const UserTabs = () => {
                 <Tab.Panel key={user.story} className="p-6 mx-auto">
                   <h3 className="h3 ">{user.user}</h3>
                   <hr className="my-4 opacity-10" />
-                  <p className="text-[#FFFFFF] max-w-xl leading-8">
+                  <p className="text-[#FFFFFF] max-w-3xl leading-8">
                     {user.story}
                   </p>
                 </Tab.Panel>

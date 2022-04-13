@@ -54,7 +54,9 @@ const StickyImages = () => {
           <div className="lg:col-span-5 lg:order-last">
             <div className="sticky top-8">
               <h2 className="mb-4">
-                <span className="h3">Scroll based spritesheet animations</span>
+                <span className="h3 font-sans font-sans">
+                  Scroll based spritesheet animations
+                </span>
                 <br />
                 <span className="h2">In sprite of it all</span>
               </h2>
@@ -65,6 +67,9 @@ const StickyImages = () => {
                 video, compiled into a spritesheet and repositioned behind a
                 canvas as a way to not only interact with the content, but
                 minimize file size.
+              </p>
+              <p className="text-sm text-gray-500 tracking-wide">
+                Design & Animation: Shelly Robinson & Fola Akinola
               </p>
             </div>
           </div>

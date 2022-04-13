@@ -3,31 +3,31 @@ import { Link } from "gatsby";
 import { HiArrowSmRight } from "react-icons/hi";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import SmellBetterCard from "../../portfolio-cards/SmellBetterCard";
-import ElectionEmailCard from "../../portfolio-cards/ElectionEmailCard";
+import IoTCard from "../../portfolio-cards/IoTCard";
+import CarbonvertCard from "../../portfolio-cards/CarbonvertCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const RelatedProjects = () => {
   useEffect(() => {
-    gsap.to("#smellbetter", {
+    gsap.to("#iot", {
       y: -25,
       opacity: "1",
       duration: 5,
       scrollTrigger: {
-        trigger: "#smellbetter",
+        trigger: "#iot",
         markers: false,
         start: "top bottom",
         end: "top 83%",
         scrub: 1,
       },
     });
-    gsap.to("#electionEmails", {
+    gsap.to("#carbonvert", {
       y: -25,
       opacity: "1",
       duration: 5,
       scrollTrigger: {
-        trigger: "#electionEmails",
+        trigger: "#carbonvert",
         markers: false,
         start: "top bottom",
         end: "top 83%",
@@ -52,8 +52,8 @@ const RelatedProjects = () => {
             <HiArrowSmRight className="group-hover:translate-x-2 transition opacity-50 group-hover:opacity-100" />
           </Link>
         </div>
-        <SmellBetterCard />
-        <ElectionEmailCard />
+        <CarbonvertCard />
+        <IoTCard />
       </div>
     </section>
   );

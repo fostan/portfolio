@@ -69,11 +69,11 @@
 }
 @layer utilities {
   .h2 {
-    font-family: bely-display-pro, serif;
+    /* font-family: bely-display-pro, serif; */
     @apply mb-4 text-3xl font-black font-serif tracking-wide text-gray-900;
   }
   .h3 {
-    @apply uppercase tracking-widest text-sm opacity-75;
+    @apply uppercase tracking-widest text-sm opacity-75 !font-normal;
   }
   .h4 {
     font-family: bely-display-pro, serif;

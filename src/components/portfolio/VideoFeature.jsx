@@ -17,7 +17,7 @@ const VideoFeature = ({ content }) => {
       <div className="container mx-auto max-w-5xl gap-8 grid md:grid-cols-2 ">
         <div className="md:order-last flex flex-col justify-center text-gray-200">
           <h2 className="mb-4 ">
-            <span className="h3">{videoFeatureTitle}</span>
+            <span className="h3 font-sans">{videoFeatureTitle}</span>
             <br />
             <span className="h2 !text-white">{videoFeatureSubTitle}</span>
           </h2>

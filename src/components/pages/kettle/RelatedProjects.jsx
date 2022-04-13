@@ -52,8 +52,8 @@ const RelatedProjects = () => {
             <HiArrowSmRight className="group-hover:translate-x-2 transition opacity-50 group-hover:opacity-100" />
           </Link>
         </div>
-        <SmellBetterCard />
         <ElectionEmailCard />
+        <SmellBetterCard />
       </div>
     </section>
   );

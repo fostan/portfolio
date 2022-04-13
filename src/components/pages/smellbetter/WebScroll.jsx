@@ -7,14 +7,14 @@ import { MdSwipe } from "react-icons/md";
 gsap.registerPlugin(ScrollTrigger);
 
 const WebScroll = () => {
-  const frames = 199;
+  const frames = 180;
 
   const canvasRef = useRef(null);
 
   useEffect(() => {
     const el = canvasRef.current;
     const context = el.getContext("2d");
-    const framesDir = "/images/carbonvert/web";
+    const framesDir = "/images/smellbetter/web";
 
     canvasRef.current.width = 800;
     const heightRatio = 0.5625;
@@ -22,7 +22,7 @@ const WebScroll = () => {
 
     const frameCount = frames;
     const currentFrame = (index) =>
-      `${framesDir}/${(index + 1).toString()}.jpg`;
+      `${framesDir}/${(index + 1).toString()}.webp`;
 
     const images = [];
     const screen = {
@@ -92,7 +92,7 @@ const WebScroll = () => {
       <div className="md:hidden px-4">
         <div className="flex flex-col justify-center md:h-screen gap-8">
           <h2>
-            <span className="h3">Web Design Refresh</span>
+            <span className="h3 font-sans">Web Design Refresh</span>
             <br />
             <span className="h2">What does your website smell like?</span>
           </h2>
