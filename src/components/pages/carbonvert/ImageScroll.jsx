@@ -4,6 +4,8 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Zoom from "react-medium-image-zoom";
 import "react-medium-image-zoom/dist/styles.css";
 
+import { StaticImage } from "gatsby-plugin-image";
+
 gsap.registerPlugin(ScrollTrigger);
 
 const ImageScroll = () => {
@@ -92,8 +94,8 @@ const ImageScroll = () => {
               id="imageOne"
             >
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-1.png"
+                <StaticImage
+                  src="../../../images/carbonvert/image-1.png"
                   className="mx-auto shadow-md"
                   alt="A collage of screenshots of the carbonvert website"
                   width="367"
@@ -103,8 +105,8 @@ const ImageScroll = () => {
             </div>
             <div className="translate-y-16 opacity-0" id="imageTwo">
               <Zoom>
-                <img
-                  src="/images/carbonvert/image-2.png"
+                <StaticImage
+                  src="../../../images/carbonvert/image-2.png"
                   className="mx-auto shadow-md md:mt-16"
                   alt="A collage of screenshots of the carbonvert website"
                   width="608"
@@ -119,8 +121,8 @@ const ImageScroll = () => {
         <div className="max-w-4xl mx-auto grid grid-cols-1 gap-16 md:grid-cols-2">
           <div className=" translate-y-16 opacity-0" id="imageThree">
             <Zoom>
-              <img
-                src="/images/carbonvert/image-3.png"
+              <StaticImage
+                src="../../../images/carbonvert/image-3.png"
                 className="mx-auto shadow-md md:mt-16"
                 alt="A collage of screenshots of the carbonvert website"
                 width="319"
@@ -130,8 +132,8 @@ const ImageScroll = () => {
           </div>
           <div className=" translate-y-16 opacity-0" id="imageFour">
             <Zoom>
-              <img
-                src="/images/carbonvert/image-4.png"
+              <StaticImage
+                src="../../../images/carbonvert/image-4.png"
                 className="mx-auto shadow-md"
                 alt="A collage of screenshots of the carbonvert website"
                 width="319"
@@ -148,8 +150,8 @@ const ImageScroll = () => {
             <div className="md:col-start-2 md:col-span-5 flex justify-center ">
               <div className=" translate-y-16 opacity-0" id="imageFive">
                 <Zoom>
-                  <img
-                    src="/images/carbonvert/image-6.png"
+                  <StaticImage
+                    src="../../../images/carbonvert/image-6.png"
                     className="mx-auto shadow-md"
                     alt="A collage of screenshots of the carbonvert website"
                     width="815"
@@ -161,8 +163,8 @@ const ImageScroll = () => {
             <div className=" md:col-span-5 flex justify-center">
               <div className=" translate-y-16 opacity-0" id="imageSix">
                 <Zoom>
-                  <img
-                    src="/images/carbonvert/image-5.png"
+                  <StaticImage
+                    src="../../../images/carbonvert/image-5.png"
                     className="mx-auto shadow-md md:col-span-5"
                     alt="A collage of screenshots of the carbonvert website"
                     width="763"
