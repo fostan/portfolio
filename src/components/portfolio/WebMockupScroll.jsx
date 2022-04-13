@@ -26,7 +26,7 @@ const WebMockupScroll = ({ content }) => {
     const context = el.getContext("2d");
     const framesDir = `/images/${folderString}/website`;
 
-    canvasRef.current.width = 700;
+    canvasRef.current.width = 900;
     const heightRatio = 0.5625;
     canvasRef.current.height = canvasRef.current.width * heightRatio;
 
@@ -73,7 +73,7 @@ const WebMockupScroll = ({ content }) => {
           <div className="md:sticky top-0 md:h-screen min-h-fit">
             <div className="flex flex-col justify-center md:h-screen">
               <h2 className="mb-4">
-                <span className="h3">{webSubtitle}</span>
+                <span className="h3 font-sans">{webSubtitle}</span>
                 <br />
                 <span className="h2">{webTitle}</span>
               </h2>
@@ -85,9 +85,6 @@ const WebMockupScroll = ({ content }) => {
           {/* set canvas wrapper height based on length of webpage scroll */}
           <div id="canvasWrapper" className="relative col-span-2">
             <div className="sticky top-1/4 md:top-0 flex flex-col justify-center md:h-screen min-h-fit">
-              <div
-                className={`bg-[${accentColor2}] -rotate-6  md:rotate-0 h-[295px] w-full md:h-5/6 md:w-5/6 lg:w-3/4 right-0 absolute rounded-sm shadow-100`}
-              ></div>
               <div className={`device-mockup`}>
                 <canvas ref={canvasRef} />
               </div>

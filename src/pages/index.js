@@ -3,51 +3,7 @@ import HomeLayout from "../components/layouts/HomeLayout";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
 import PortfolioCard from "../components/global/PortfolioCard";
 import { FaLightbulb, FaRocket, FaHighlighter } from "react-icons/fa";
-
-const FeaturedProjects = [
-  {
-    title: "Who are your devices talking to?",
-    client: "IoT Inspector",
-    tags: "Development • UX",
-    image: "/images/iot-inspector/iot-inspector-card.webp",
-    page: "/iot-inspector/",
-  },
-  {
-    title: "A new look at the 2020 election",
-    client: "2020 US Election Emails",
-    tags: "Development • Design • UX",
-    image: "/images/election-emails/election-emails-card.webp",
-    page: "/2020-us-election-emails/",
-  },
-  // {
-  //   title: "Table top magic",
-  //   client: "Damn Good Game tools",
-  //   tags: "Development • UX",
-  //   image: "/images/dggt/dggt-card.png",
-  //   page: "/damn-good-game-tools/",
-  // },
-  {
-    title: "A down to Earth solution",
-    client: "Carbonvert",
-    tags: "Development • Design",
-    image: "/images/carbonvert/carbonvert-card.webp",
-    page: "/carbonvert/",
-  },
-  {
-    title: "Heaven Scent",
-    client: "Smellbetter",
-    tags: "Development • Design",
-    image: "/images/smellbetter/smellbetter-card.webp",
-    page: "/smellbetter/",
-  },
-  {
-    title: "A.I. Disaster Prevention",
-    client: "Kettle",
-    tags: "Development",
-    image: "/images/kettle/kettle-card.webp",
-    page: "/kettle/",
-  },
-];
+import ProjectTabs from "../components/pages/home/ProjectTabs";
 
 const altLayout = ["md:mt-16 lg:mt-0", "mb-16 lg:mb-0"];
 
@@ -55,10 +11,39 @@ const IndexPage = () => {
   return (
     <HomeLayout>
       <GatsbySeo
-        title="Fostan"
+        title="Fostan • Digital Interface Foundry"
         description="Front-End Development & UX/UI Design"
+        openGraph={{
+          url: "https://www.fostan.xyz",
+          title: "Fostan",
+          description: "Front-End Development & UX/UI Design",
+          images: [
+            {
+              url: "/images/social.png",
+              width: 800,
+              height: 600,
+              alt: "Front-End Development & UX/UI Design by Fostan",
+            },
+          ],
+        }}
       />
-      <section className="pt-12 md:pt-40 pb-20">
+      <div className="h-3 w-full bg-dark"></div>
+      <section className="pt-20  md:pt-28 pb-12">
+        <div className="container max-w-2xl mx-auto text-center">
+          <div>
+            <h1 className="text-hero mb-2">Fostan.</h1>
+            <p className="opacity-50">
+              Just a kid who wanted the coolest Myspace page.
+            </p>
+          </div>
+          <ul></ul>
+        </div>
+      </section>
+      <section className="py-0 md:pt-auto">
+        <ProjectTabs />
+      </section>
+
+      {/* <section className="pt-12 md:pt-40 pb-20">
         <div className="px-4 mx-auto container">
           <h1 className="text-white text-center text-xl lg:text-9xl uppercase tracking-widest mt-8 md:order-last">
             Fostan
@@ -83,7 +68,7 @@ const IndexPage = () => {
             <PortfolioCard project={project} />
           </div>
         ))}
-      </div>
+      </div> */}
     </HomeLayout>
   );
 };

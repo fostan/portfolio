@@ -3,7 +3,7 @@ import React, { Children } from "react";
 const DefaultLayout = ({ title, children }) => {
   return (
     <>
-      <main className="bg-gradient-to-t from-gray-700  to-neutral-800">
+      <main className="relative w-2.5bg-gradient-to-tr from-[#DEDCDB]  to-[#F2EBEA] min-h-screen">
         {children}
       </main>
     </>

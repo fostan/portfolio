@@ -21,6 +21,16 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
-    "gatsby-plugin-next-seo",
+    {
+      resolve: "gatsby-plugin-next-seo",
+      options: {
+        openGraph: {
+          type: "website",
+          locale: "en_IE",
+          url: "https://www.fosan.xyz/",
+          site_name: "Fostan.xyz",
+        },
+      },
+    },
   ],
 };

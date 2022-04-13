@@ -35,6 +35,8 @@
     "react-helmet": "^6.1.0",
     "react-helmet-async": "^1.2.3",
     "react-icons": "^4.3.1",
-    "tailwindcss": "^3.0.23"
+    "react-medium-image-zoom": "^4.3.6",
+    "tailwindcss": "^3.0.23",
+    "video-react": "^0.15.0"
   }
 }
