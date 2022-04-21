@@ -7,7 +7,7 @@
     @apply overflow-x-hidden;
   }
   body {
-    @apply font-sans;
+    @apply font-sans selection:bg-yellow-300 selection:text-yellow-900;
   }
   h1 {
     font-family: bely-display-pro, serif;
@@ -33,17 +33,17 @@
   section {
     @apply py-20 md:py-40;
   }
+  a {
+    @apply focus:outline-none focus:ring focus:ring-yellow-500;
+  }
+  button {
+    @apply focus:outline-none focus:ring focus:ring-yellow-500;
+  }
 }
 
 @layer components {
   .text-hero {
     @apply text-5xl sm:text-8xl;
-  }
-  .text-filter {
-    font-family: bely-display-pro, serif;
-    text-shadow: #fff 0px 0px 0px;
-    @apply mb-3 text-transparent text-neutral-800 transition-all opacity-50 cursor-pointer md:text-6xl hover:text-white;
-    text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff, 0 0 1px #fff;
   }
   .container {
     @apply px-6;
@@ -64,9 +64,10 @@
     @apply flex items-center justify-center flex-col rounded-full sm:border sm:hover:border-brown sm:border-clay pb-1 pt-0.5 px-5 tracking-wider transition text-sm text-brown duration-700 hover:bg-brown hover:text-light/80 sm:h-fit;
   }
   .project-filter-pill-active {
-    @apply bg-dark sm:border-dark text-light hover:bg-dark;
+    @apply bg-dark sm:border-dark text-light hover:bg-dark focus:outline-none focus:ring focus:ring-yellow-500;
   }
 }
+
 @layer utilities {
   .h2 {
     /* font-family: bely-display-pro, serif; */
@@ -83,7 +84,7 @@
     @apply flex gap-2 py-4;
   }
   .tag {
-    @apply rounded-md px-3 py-1 bg-dark/10 text-sm md:text-xs;
+    @apply rounded-md px-3 py-1 bg-dark/5 text-sm md:text-xs;
   }
   .card-title {
     @apply text-xl md:text-3xl font-black text-white mb-0;

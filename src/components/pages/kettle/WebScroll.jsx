@@ -102,6 +102,7 @@ const WebScroll = () => {
             impressive wildfire prediction from 2020.
           </p>
           <StaticImage
+            placeholder="blurred"
             // TODO SWAP IMAGE
             src="../../../images/carbonvert/web-screen.png"
             className="w-full"

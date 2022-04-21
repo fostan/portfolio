@@ -61,7 +61,7 @@ const ProjectTabs = () => {
             </Tab>
           </Tab.List>
         </div>
-        <Tab.Panels>
+        <Tab.Panels className="">
           <div className="md:pt-[25px]">
             <Tab.Panel>
               <TabAllWork />

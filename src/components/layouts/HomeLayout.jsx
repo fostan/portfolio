@@ -1,6 +1,6 @@
-import React, { Children } from "react";
+import React from "react";
 
-const DefaultLayout = ({ title, children }) => {
+const DefaultLayout = ({ children }) => {
   return (
     <>
       <main className="relative w-2.5bg-gradient-to-tr from-[#DEDCDB]  to-[#F2EBEA] min-h-screen">

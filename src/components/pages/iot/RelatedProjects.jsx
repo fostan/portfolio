@@ -3,7 +3,6 @@ import { Link } from "gatsby";
 import { HiArrowSmRight } from "react-icons/hi";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import SmellBetterCard from "../../portfolio-cards/SmellBetterCard";
 import CarbonvertCard from "../../portfolio-cards/CarbonvertCard";
 import ElectionEmailCard from "../../portfolio-cards/ElectionEmailCard";
 

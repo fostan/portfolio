@@ -104,6 +104,7 @@ const WebScroll = () => {
             your browser.
           </p>
           <StaticImage
+            placeholder="blurred"
             // TODO SWAP IMAGE
             src="../../../images/carbonvert/web-screen.png"
             className="w-full"

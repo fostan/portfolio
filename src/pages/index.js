@@ -1,11 +1,7 @@
 import * as React from "react";
 import HomeLayout from "../components/layouts/HomeLayout";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
-import PortfolioCard from "../components/global/PortfolioCard";
-import { FaLightbulb, FaRocket, FaHighlighter } from "react-icons/fa";
 import ProjectTabs from "../components/pages/home/ProjectTabs";
-
-const altLayout = ["md:mt-16 lg:mt-0", "mb-16 lg:mb-0"];
 
 const IndexPage = () => {
   return (

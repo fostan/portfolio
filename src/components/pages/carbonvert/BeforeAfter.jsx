@@ -13,6 +13,7 @@ const BeforeAfter = () => {
             Before
           </span>
           <StaticImage
+            placeholder="blurred"
             src="../../../images/carbonvert/carbonvert-before.png"
             className="w-full"
             alt="A screenshot of the website before it has been redesigned"
@@ -24,6 +25,7 @@ const BeforeAfter = () => {
             After
           </span>
           <StaticImage
+            placeholder="blurred"
             src="../../../images/carbonvert/carbonvert-after.png"
             className="w-full"
             alt="A screenshot of the website after it has been redesigned"

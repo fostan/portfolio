@@ -112,6 +112,7 @@ const WebScroll = () => {
             research with.
           </p>
           <StaticImage
+            placeholder="blurred"
             // TODO SWAP IMAGE
             src="../../../images/carbonvert/web-screen.png"
             className="w-full"
