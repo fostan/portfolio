@@ -7,7 +7,7 @@
     @apply overflow-x-hidden;
   }
   body {
-    @apply font-sans selection:bg-yellow-300 selection:text-yellow-900;
+    @apply font-sans selection:bg-zinc-800 selection:text-amber-50;
   }
   h1 {
     font-family: bely-display-pro, serif;
@@ -34,10 +34,10 @@
     @apply py-20 md:py-40;
   }
   a {
-    @apply focus:outline-none focus:ring focus:ring-yellow-500;
+    @apply focus:outline-none focus:ring focus:ring-zinc-800;
   }
   button {
-    @apply focus:outline-none focus:ring focus:ring-yellow-500;
+    @apply focus:outline-none focus:ring focus:ring-zinc-800;
   }
 }
 
@@ -64,7 +64,7 @@
     @apply flex items-center justify-center flex-col rounded-full sm:border sm:hover:border-brown sm:border-clay pb-1 pt-0.5 px-5 tracking-wider transition text-sm text-brown duration-700 hover:bg-brown hover:text-light/80 sm:h-fit;
   }
   .project-filter-pill-active {
-    @apply bg-dark sm:border-dark text-light hover:bg-dark focus:outline-none focus:ring focus:ring-yellow-500;
+    @apply bg-dark sm:border-dark text-light hover:bg-dark focus:outline-none focus:ring focus:ring-zinc-800;
   }
 }
 
