@@ -29,6 +29,7 @@ module.exports = {
           locale: "en_IE",
           url: "https://www.fosan.xyz/",
           site_name: "Fostan.xyz",
+          lang: "en",
         },
       },
     },

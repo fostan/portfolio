@@ -13,6 +13,7 @@ const BeforeAfter = () => {
             Before
           </span>
           <StaticImage
+            placeholder="blurred"
             src="../../../images/iot/iot-before.png"
             className="w-full"
             alt="A screenshot of Consumer Reports' Iot Inspector before it has been redesigned"
@@ -24,6 +25,7 @@ const BeforeAfter = () => {
             After
           </span>
           <StaticImage
+            placeholder="blurred"
             src="../../../images/iot/iot-after.png"
             className="w-full"
             alt="A screenshot of Consumer Reports' Iot Inspector after UX refinements"

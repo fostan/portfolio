@@ -34,12 +34,13 @@ const ImageScroll = () => {
             >
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/smellbetter/image-1.png"
                   className="mx-auto"
                   alt="A collage of screenshots of the carbonvert website"
                   id="imageOne"
-                  width="1906"
-                  height="1258"
+                  width={1906}
+                  height={1258}
                 />
               </Zoom>
             </div>

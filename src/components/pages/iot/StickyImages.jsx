@@ -86,44 +86,48 @@ const StickyImages = () => {
             <div className=" translate-y-16 opacity-0" id="imageOne">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/iot/iot-screen-1.png"
                   className="mx-auto shadow-md w-full"
                   alt="Screen shots from the IoT Inspector"
-                  width="1198"
-                  height="666"
+                  width={1198}
+                  height={666}
                 />
               </Zoom>
             </div>
             <div className=" translate-y-16 opacity-0" id="imageTwo">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/iot/iot-screen-2.png"
                   className="mx-auto shadow-md"
                   alt="Screen shots from the IoT Inspector"
-                  width="1198"
-                  height="666"
+                  width={1198}
+                  height={666}
                 />
               </Zoom>
             </div>
             <div className=" translate-y-16 opacity-0" id="imageThree">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/iot/iot-screen-3.png"
                   className="mx-auto shadow-md"
                   alt="Screen shots from the IoT Inspector"
-                  width="1198"
-                  height="670"
+                  width={1198}
+                  height={670}
                 />
               </Zoom>
             </div>
             <div className=" translate-y-16 opacity-0" id="imageFour">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/iot/iot-screen-4.png"
                   className="mx-auto shadow-md"
                   alt="Screen shots from the IoT Inspector"
-                  width="1198"
-                  height="668"
+                  width={1198}
+                  height={668}
                 />
               </Zoom>
             </div>

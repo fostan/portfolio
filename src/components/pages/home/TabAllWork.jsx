@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import IoTCard from "../../portfolio-cards/IoTCard";
@@ -85,7 +85,7 @@ const TabAllWork = () => {
     // });
   }, []);
   return (
-    <div className="grid gap-x-3 md:gap-x-6 gap-y-4 grid-rows-11 grid-cols-2">
+    <div className="grid gap-x-3 md:gap-x-6 gap-y-4 grid-rows-10 grid-cols-2">
       <ElectionEmailCard />
 
       <IoTCard />

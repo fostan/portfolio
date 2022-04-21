@@ -54,7 +54,7 @@ const StickyImages = () => {
           <div className="lg:col-span-5 lg:order-last">
             <div className="sticky top-8">
               <h2 className="mb-4">
-                <span className="h3 font-sans font-sans">
+                <span className="h3 font-sans">
                   Scroll based spritesheet animations
                 </span>
                 <br />
@@ -77,33 +77,36 @@ const StickyImages = () => {
             <div className=" translate-y-16 opacity-0" id="imageOne">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/kettle/image-1.png"
                   className="mx-auto shadow-md"
                   alt="A screenshot of the Kettle website"
-                  width="1206"
-                  height="638"
+                  width={1206}
+                  height={638}
                 />
               </Zoom>
             </div>
             <div className="translate-y-16 opacity-0" id="imageTwo">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/kettle/image-2.png"
                   className="mx-auto shadow-md"
                   alt="A screenshot of the Kettle website"
-                  width="1206"
-                  height="616"
+                  width={1206}
+                  height={616}
                 />
               </Zoom>
             </div>
             <div className="translate-y-16 opacity-0" id="imageThree">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/kettle/image-3.png"
                   className="mx-auto shadow-md"
                   alt="A screenshot of the Kettle website"
-                  width="1206"
-                  height="612"
+                  width={1206}
+                  height={612}
                 />
               </Zoom>
             </div>

@@ -11,6 +11,7 @@ const CarbonvertCard = () => {
         <div className="relative bg-black h-full w-full rounded-lg overflow-hidden group-hover:scale-[97%] ease-out duration-300 transition">
           <div className="absolute inset-0">
             <StaticImage
+              placeholder="blurred"
               src="../../images/carbonvert/carbonvert-card.png"
               className="w-full h-full object-cover group-hover:scale-[120%] transition ease-out duration-500"
               alt=""

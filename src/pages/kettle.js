@@ -1,49 +1,11 @@
 import * as React from "react";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
 import DefaultLayout from "../components/layouts/DefaultLayout";
-// import ProjectIntro from "../components/portfolio/ProjectIntro";
-// import WebMockupScroll from "../components/portfolio/WebMockupScroll";
-// import StickyGallery from "../components/portfolio/StickyGallery";
-// import RelatedProjects from "../components/portfolio/RelatedProjects";
-
 import ProjectIntro from "../components/pages/kettle/ProjectIntro";
 import WebScroll from "../components/pages/kettle/WebScroll";
 import StickyImages from "../components/pages/kettle/StickyImages";
 import RelatedProjects from "../components/pages/kettle/RelatedProjects";
-import { Player } from "video-react";
-
-const PageContent = {
-  darkColor: "#C24E67",
-  lightColor: "#F8F8F8",
-  accentColor: "#C24E67",
-  accentColor2: "#F9D055",
-  tagline: "A.I. Disaster Prevention",
-  client: {
-    clientName: "Kettle Reinsurance",
-    clientProject: "OurKettle Website",
-  },
-  role: [{ label: "UI Design" }, { label: "Web Development" }],
-  team: [
-    { member: "Shelly Robinson" },
-    { member: "Fola Akinola" },
-    { member: "Abby Ruminski" },
-    { member: "Tom Beck" },
-  ],
-  featuredImage: "kettle-featured.webp",
-  objectiveHTML:
-    "<p>Kettle is a reinsurance tool utilizing machine learning to mitigate catastrophic risk in the midst of global warming. Their first product, Cat Strip, has an industry leading 89% prediction success rate predicting wildfire damages in the state of California and deserved an equally as impressive internet debut. The design team had an impressive vision highlighting Kettle’s impressive numbers with stunning visuals and animations that would certainly set Kettle apart. </p>",
-  webTitle: "Out for a scroll",
-  webSubtitle: "Web design Refresh",
-  webHTML:
-    "<p>Close attention and communication with both designers and animators allowed us to create a variety of page based animations triggered by the user's scroll position. Included is a small demo showing Kettle’s impressive wildfire prediction from 2020.</p>",
-  folderString: "kettle",
-  additionalTitle: "Scroll based spritesheet animations",
-  additionalSubTitle: "In sprite of it all",
-  additionalHTML:
-    "<p>The animation on the technology page is controlled in a slightly different manner. While still based on user scroll position, the animation playing is a frame by frame export of an animated video, compiled into a spritesheet and repositioned behind a canvas as a way to not only interact with the content, but minimize file size.</p>",
-  additionalScreens: "/images/kettle/kettle-screens.webp",
-  frameCount: 221,
-};
+// import { Player } from "video-react";
 
 const KettlePage = () => {
   return (

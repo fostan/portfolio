@@ -1,7 +1,7 @@
-import React, { Children } from "react";
+import React from "react";
 import Navigation from "../global/Navigation";
 
-const DefaultLayout = ({ title, children }) => {
+const DefaultLayout = ({ children }) => {
   return (
     <>
       <Navigation />

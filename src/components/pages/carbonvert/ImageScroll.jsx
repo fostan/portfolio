@@ -95,22 +95,24 @@ const ImageScroll = () => {
             >
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/carbonvert/image-1.png"
                   className="mx-auto shadow-md"
                   alt="A collage of screenshots of the carbonvert website"
-                  width="367"
-                  height="787"
+                  width={367}
+                  height={787}
                 />
               </Zoom>
             </div>
             <div className="translate-y-16 opacity-0" id="imageTwo">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/carbonvert/image-2.png"
                   className="mx-auto shadow-md md:mt-16"
                   alt="A collage of screenshots of the carbonvert website"
-                  width="608"
-                  height="734"
+                  width={608}
+                  height={734}
                 />
               </Zoom>
             </div>
@@ -122,22 +124,24 @@ const ImageScroll = () => {
           <div className=" translate-y-16 opacity-0" id="imageThree">
             <Zoom>
               <StaticImage
+                placeholder="blurred"
                 src="../../../images/carbonvert/image-3.png"
                 className="mx-auto shadow-md md:mt-16"
                 alt="A collage of screenshots of the carbonvert website"
-                width="319"
-                height="492"
+                width={319}
+                height={492}
               />
             </Zoom>
           </div>
           <div className=" translate-y-16 opacity-0" id="imageFour">
             <Zoom>
               <StaticImage
+                placeholder="blurred"
                 src="../../../images/carbonvert/image-4.png"
                 className="mx-auto shadow-md"
                 alt="A collage of screenshots of the carbonvert website"
-                width="319"
-                height="492"
+                width={319}
+                height={492}
               />
             </Zoom>
           </div>
@@ -151,11 +155,12 @@ const ImageScroll = () => {
               <div className=" translate-y-16 opacity-0" id="imageFive">
                 <Zoom>
                   <StaticImage
+                    placeholder="blurred"
                     src="../../../images/carbonvert/image-6.png"
                     className="mx-auto shadow-md"
                     alt="A collage of screenshots of the carbonvert website"
-                    width="815"
-                    height="486"
+                    width={815}
+                    height={486}
                   />
                 </Zoom>
               </div>
@@ -164,11 +169,12 @@ const ImageScroll = () => {
               <div className=" translate-y-16 opacity-0" id="imageSix">
                 <Zoom>
                   <StaticImage
+                    placeholder="blurred"
                     src="../../../images/carbonvert/image-5.png"
                     className="mx-auto shadow-md md:col-span-5"
                     alt="A collage of screenshots of the carbonvert website"
-                    width="763"
-                    height="497"
+                    width={763}
+                    height={497}
                   />
                 </Zoom>
               </div>

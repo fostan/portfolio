@@ -1,11 +1,8 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import IoTCard from "../../portfolio-cards/IoTCard";
-import CarbonvertCard from "../../portfolio-cards/CarbonvertCard";
-import KettleCard from "../../portfolio-cards/KettleCard";
 import ElectionEmailCard from "../../portfolio-cards/ElectionEmailCard";
-import SmellBetterCard from "../../portfolio-cards/SmellBetterCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -85,7 +82,7 @@ const TabUX = () => {
     // });
   }, []);
   return (
-    <div className="grid gap-x-3 md:gap-x-6 gap-y-4 grid-rows-11 grid-cols-2">
+    <div className="grid gap-x-3 md:gap-x-6 gap-y-4 grid-rows-4 grid-cols-2">
       <IoTCard />
       <ElectionEmailCard />
     </div>

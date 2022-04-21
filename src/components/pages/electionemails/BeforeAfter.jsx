@@ -13,6 +13,7 @@ const BeforeAfter = () => {
             Before
           </span>
           <StaticImage
+            placeholder="blurred"
             src="../../../images/electionemails/electionemails-before.png"
             className="w-full"
             alt="A screenshot of the 2020 Election Email website before it has been redesigned"
@@ -24,6 +25,7 @@ const BeforeAfter = () => {
             After
           </span>
           <StaticImage
+            placeholder="blurred"
             src="../../../images/electionemails/electionemails-after.png"
             className="w-full"
             alt="A screenshot of the 2020 Election Email website after it has been redesigned"

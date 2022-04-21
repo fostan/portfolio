@@ -44,6 +44,7 @@ const ElectionEmails = () => {
                   height="455px"
                 />
                 {/* <StaticImage
+            placeholder="blurred"
                   src={link.image}
                   className="w-full h-full object-cover group-hover:scale-[120%] transition ease-out duration-500"
                   alt=""

@@ -108,6 +108,7 @@ const WebScroll = () => {
             beyond.
           </p>
           <StaticImage
+            placeholder="blurred"
             src="../../../images/carbonvert/web-screen.png"
             className="w-full"
             alt="A screenshot of the website after it has been redesigned"

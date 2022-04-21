@@ -1,6 +1,5 @@
 import React from "react";
 import { StaticImage } from "gatsby-plugin-image";
-import { RiExternalLinkFill } from "react-icons/ri";
 
 const ProjectIntro = () => {
   return (
@@ -9,14 +8,15 @@ const ProjectIntro = () => {
         <div className="max-w-6xl px-4 sm:px-8 grid grid-cols-1 md:grid-cols-2 gap-16 mx-auto">
           <div className="flex gap-4 flex-col justify-center text-light">
             <h1 className="text-white">A new look at the 2020 election</h1>
-            <a
+            <button
+              href="#"
               className="text-sm text-gray-300/40 flex gap-1 items-center  transition w-fit"
               target="_blank"
               rel="noreferrer"
             >
               2020 Election Emails • Coming Soon
               {/* <RiExternalLinkFill /> */}
-            </a>
+            </button>
             <hr />
             <dl className="grid grid-cols-2">
               <dt className="col-span-2 h4">Role</dt>
@@ -33,6 +33,7 @@ const ProjectIntro = () => {
           </div>
           <div className="-mb-[6rem] md:-mb-[16rem]">
             <StaticImage
+              placeholder="blurred"
               src="../../../images/electionemails/feature.png"
               className="w:3/4 h:auto h-/4 md:w-full md:h-full shadow-md"
               alt=""

@@ -1,11 +1,7 @@
 import * as React from "react";
 import HomeLayout from "../components/layouts/HomeLayout";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
-import PortfolioCard from "../components/global/PortfolioCard";
-import { FaLightbulb, FaRocket, FaHighlighter } from "react-icons/fa";
 import ProjectTabs from "../components/pages/home/ProjectTabs";
-
-const altLayout = ["md:mt-16 lg:mt-0", "mb-16 lg:mb-0"];
 
 const IndexPage = () => {
   return (
@@ -42,33 +38,13 @@ const IndexPage = () => {
       <section className="py-0 md:pt-auto">
         <ProjectTabs />
       </section>
-
-      {/* <section className="pt-12 md:pt-40 pb-20">
-        <div className="px-4 mx-auto container">
-          <h1 className="text-white text-center text-xl lg:text-9xl uppercase tracking-widest mt-8 md:order-last">
-            Fostan
-          </h1>
-          <ul className="flex mx-auto justify-center gap-4 md:gap-16 flex-col md:flex-row">
-            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50 text-center">
-              User Experience design
-            </li>
-            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50 text-center">
-              Front-end web development
-            </li>
-            <li className="text-sky-100 uppercase tracking-[.27em] text-xs opacity-50 text-center">
-              User Interface design
-            </li>
-          </ul>
+      <section className="pt-10">
+        <div className="container mx-auto text-center max-w-xl">
+          <h2 className="w-full border-b-2 py-2 border-black/50 bg-zinc-900/30 text-zinc-900">
+            Todo List
+          </h2>
         </div>
       </section>
-
-      <div className="grid max-w-3xl py-16 mx-auto md:grid-cols-2 lg:max-w-6xl lg:grid-cols-3 gap-16 px-4 overflow-x-hidden">
-        {FeaturedProjects.map((project, index) => (
-          <div key={index} className={`${altLayout[index % altLayout.length]}`}>
-            <PortfolioCard project={project} />
-          </div>
-        ))}
-      </div> */}
     </HomeLayout>
   );
 };

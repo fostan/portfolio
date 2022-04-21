@@ -72,33 +72,36 @@ const StickyImages = () => {
             <div className=" translate-y-16 opacity-0" id="imageOne">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/electionemails/screen-1.png"
                   className="mx-auto shadow-md"
                   alt="2020 Election Emails Results"
-                  width="1200"
-                  height="1050"
+                  width={1200}
+                  height={1050}
                 />
               </Zoom>
             </div>
             <div className=" translate-y-16 opacity-0" id="imageTwo">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/electionemails/screen-2.png"
                   className="mx-auto shadow-md"
                   alt="2020 Election Emails detailed email view"
-                  width="1200"
-                  height="834"
+                  width={1200}
+                  height={834}
                 />
               </Zoom>
             </div>
             <div className=" translate-y-16 opacity-0" id="imageThree">
               <Zoom>
                 <StaticImage
+                  placeholder="blurred"
                   src="../../../images/electionemails/screen-3.png"
                   className="mx-auto shadow-md"
                   alt="2020 Election Emails Senders Page"
-                  width="1200"
-                  height="830"
+                  width={1200}
+                  height={830}
                 />
               </Zoom>
             </div>
