@@ -38,13 +38,13 @@ const IndexPage = () => {
       <section className="py-0 md:pt-auto">
         <ProjectTabs />
       </section>
-      <section className="pt-10">
+      {/* <section className="pt-10">
         <div className="container mx-auto text-center max-w-xl">
           <h2 className="w-full border-b-2 py-2 border-black/50 bg-zinc-900/30 text-zinc-900">
             Todo List
           </h2>
         </div>
-      </section>
+      </section> */}
     </HomeLayout>
   );
 };
