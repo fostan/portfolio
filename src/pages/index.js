@@ -2,6 +2,7 @@ import * as React from "react";
 import HomeLayout from "../components/layouts/HomeLayout";
 import { GatsbySeo } from "gatsby-plugin-next-seo";
 import ProjectTabs from "../components/pages/home/ProjectTabs";
+import Navigation from "../components/global/Navigation";
 
 const IndexPage = () => {
   return (
@@ -23,18 +24,29 @@ const IndexPage = () => {
           ],
         }}
       />
-      <div className="h-3 w-full bg-dark"></div>
-      <section className="pt-20  md:pt-28 pb-12">
-        <div className="container max-w-2xl mx-auto text-center">
-          <div>
-            <h1 className="text-hero mb-2">Fostan.</h1>
-            <p className="opacity-50">
-              Just a kid who wanted the coolest Myspace page.
-            </p>
+      <section className="pt-0 pb-96">
+        <div className="md:w-11/12 py-4 px-8 mx-auto text-white bg-dark">
+          <div className="container md:pb-48 pb-24">
+            <Navigation />
+            <div className="grid gap-5">
+              <h1 className="text-hero mb-2 text-white order-2">
+                Fostan is a user interface & UX designer with years of front-end
+                development experience.
+              </h1>
+              <div className="flex items-center gap-3 opacity-50">
+                <span className="text-xs uppercase">Fostan</span>
+                <div className="w-full h-[1px] bg-white"></div>
+                <span className="text-xs uppercase">xyz</span>
+              </div>
+            </div>
           </div>
-          <ul></ul>
+          <div className="max-w-5xl mx-auto grid grid-cols-1 gap-8 md:gap-0 md:grid-cols-2 -mb-96">
+            <div className="bg-green-500 rounded-xl w-10/12 h-[600px] mx-auto mt-16"></div>
+            <div className="bg-green-500 rounded-xl w-10/12 h-[600px] mx-auto"></div>
+          </div>
         </div>
       </section>
+
       <section className="py-0 md:pt-auto">
         <ProjectTabs />
       </section>

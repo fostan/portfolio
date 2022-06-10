@@ -10,18 +10,17 @@
     @apply font-sans selection:bg-zinc-800 selection:text-amber-50;
   }
   h1 {
-    font-family: bely-display-pro, serif;
-    @apply mb-3 text-6xl font-serif  text-dark;
+    @apply mb-3 text-6xl font-sans  text-dark;
   }
   h2 {
-    font-family: bely-display-pro, serif;
+    font-family: scandia-web, sans-serif;
     @apply mb-1 text-3xl font-serif  text-dark;
   }
   h3 {
     @apply uppercase tracking-widest text-sm opacity-75;
   }
   h4 {
-    font-family: bely-display-pro, serif;
+    font-family: scandia-web, sans-serif;
     @apply uppercase tracking-widest text-sm opacity-75;
   }
   dd {
@@ -43,10 +42,11 @@
 
 @layer components {
   .text-hero {
-    @apply text-5xl sm:text-8xl;
+    @apply text-2xl;
+    @apply sm:text-4xl md:text-7xl;
   }
   .container {
-    @apply px-6;
+    @apply px-6 max-w-7xl mx-auto;
   }
   .device-mockup {
     @apply w-[886px] mx-auto lg:mx-0 relative flex items-center h-[519px] bg-[url('../images/screen.png')] max-w-[100%] mt-[62px];
@@ -66,18 +66,29 @@
   .project-filter-pill-active {
     @apply bg-dark sm:border-dark text-light hover:bg-dark focus:outline-none focus:ring focus:ring-zinc-800;
   }
+  .nav {
+    .nav-link {
+      @apply relative;
+      @apply py-1 px-2 rounded-lg;
+      @apply opacity-50 transition;
+      @apply focus:outline-2 focus:outline-white;
+      @apply hover:opacity-100;
+      .nav-link-icon {
+        @apply w-6 h-6 text-white transition;
+      }
+    }
+  }
 }
 
 @layer utilities {
   .h2 {
-    /* font-family: bely-display-pro, serif; */
     @apply mb-4 text-3xl font-black font-serif tracking-wide text-gray-900;
   }
   .h3 {
     @apply uppercase tracking-widest text-sm opacity-75 !font-normal;
   }
   .h4 {
-    font-family: bely-display-pro, serif;
+    font-family: scandia-web, sans-serif;
     @apply uppercase tracking-widest text-sm opacity-75;
   }
   .tag-group {

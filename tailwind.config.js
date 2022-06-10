@@ -12,8 +12,7 @@ module.exports = {
         brown: "#463f3c",
       },
       fontFamily: {
-        serif: ["Bely Display", "serif"],
-        sans: ["Utile", "sans-serif"],
+        sans: ["scandia-line-web", "sans-serif"],
       },
       gridTemplateRows: {
         7: "repeat(7, minmax(0, 1fr))",
